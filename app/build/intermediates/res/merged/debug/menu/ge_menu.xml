@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto">
+<item android:id="@+id/action_sort_by"
+    android:title="@string/hello"
+    app:showAsAction="ifRoom">
+    <menu>
+        <group android:checkableBehavior="single">
+            <item android:id="@+id/new_game"
+                android:title="Final Exams"
+                android:onClick="onMenuItemClick"/>
+            <item android:id="@+id/new_g"
+                android:title="Supplimentary"
+                android:onClick="onq2"/>
+        </group>
+    </menu>
+</item>
+</menu>

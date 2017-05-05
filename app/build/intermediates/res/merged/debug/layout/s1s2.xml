@@ -1,0 +1,561 @@
+<android.support.design.widget.CoordinatorLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillViewport="false"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="8dp">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+<android.support.v4.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        tools:context=".MainActivity">
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="3"
+            android:background="@color/grey"
+            android:padding="10dp">
+<android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    app:cardCornerRadius="15dp"
+    android:layout_marginTop="15dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                android:background="#FFEA00"
+                android:elevation="5dp">
+
+                <Button
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_weight="1"
+                    android:onClick="calculus"
+                    android:adjustViewBounds="true"
+                    android:paddingLeft="2dp"
+                    android:text="calculus"
+
+                    android:layout_gravity="center"
+                    android:background="#50000000"
+                    android:textColor="#ffffff"
+                    android:paddingEnd="2dp"
+                    android:paddingRight="2dp"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_weight="1"
+                    android:onClick="graphy"
+                    android:adjustViewBounds="true"
+                    android:text="engineering graphics"
+                    android:layout_gravity="center"
+                    android:background="#80000000"
+                    android:textColor="#ffffff"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:paddingEnd="5dp"
+                    android:paddingStart="5dp"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="physics"
+                    android:text="engineering physics"
+                    android:layout_gravity="center"
+                    android:textColor="#ffffff"
+                    android:background="#50000000"
+                    android:paddingEnd="5dp"
+                    android:paddingStart="5dp"
+                    android:textSize="12sp" />
+            </LinearLayout>
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3"
+
+                android:background="#FFEA00"
+                android:elevation="50dp">
+
+                <Button
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_weight="1"
+                    android:onClick="chem"
+                    android:adjustViewBounds="true"
+                    android:paddingLeft="2dp"
+                    android:text="engineering chemistry"
+
+                    android:layout_gravity="center"
+                    android:background="#80000000"
+                    android:textColor="#ffffff"
+                    android:layout_marginTop="5dp"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_weight="1"
+                    android:onClick="mechanics"
+                    android:adjustViewBounds="true"
+                    android:text="engineering mechanics"
+                    android:layout_gravity="center"
+                    android:background="#50000000"
+                    android:textColor="#ffffff"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="design"
+                    android:text="design and engineering"
+                    android:layout_gravity="center"
+                    android:textColor="#ffffff"
+                    android:background="#80000000"
+                    android:layout_marginTop="5dp"
+                    android:textSize="12sp" />
+            </LinearLayout>
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3"
+
+                android:background="#FFEA00"
+                android:elevation="10dp">
+
+                <Button
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_weight="1"
+                    android:onClick="diff"
+                    android:adjustViewBounds="true"
+                    android:paddingLeft="2dp"
+                    android:text="  differential equation"
+
+                    android:layout_gravity="center"
+                    android:textColor="#ffffff"
+                    android:background="#50000000"
+                    android:layout_marginTop="5dp"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_weight="1"
+                    android:onClick="ISE"
+                    android:adjustViewBounds="true"
+                    android:layout_gravity="center"
+                    android:background="#80000000"
+                    android:textColor="#ffffff"
+                    android:text="Introduction to sustainable engineering"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:layout_gravity="center"
+                    android:textColor="#ffffff"
+                    android:background="#00000000" />
+            </LinearLayout>
+    </LinearLayout>
+            </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            app:cardCornerRadius="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                android:elevation="30dp"
+                android:background="#f1af3d">
+
+                <Button
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_weight="1"
+                    android:onClick="mechanical"
+                    android:adjustViewBounds="true"
+                    android:paddingLeft="2dp"
+                    android:text="Basics of mechanical engineering"
+
+                    android:layout_gravity="center"
+                    android:background="#80000000"
+                    android:textColor="#ffffff"
+                    android:textSize="12sp" />
+-
+                <Button
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_weight="1"
+                    android:onClick="bcivil"
+                    android:adjustViewBounds="true"
+                    android:text="Basics of civil engineering"
+                    android:layout_gravity="center"
+                    android:background="#50000000"
+                    android:textColor="#ffffff"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_weight="1"
+                    android:onClick="BEE"
+                    android:adjustViewBounds="true"
+                    android:text="Basics of electrical engineering"
+                    android:layout_gravity="center"
+                    android:textColor="#ffffff"
+                    android:background="#80000000"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3"
+
+                android:elevation="10dp"
+                android:background="#f1af3d">
+
+                <Button
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_weight="1"
+                    android:onClick="BEC"
+                    android:adjustViewBounds="true"
+                    android:paddingLeft="2dp"
+                    android:text="Basics of Electronics engineering"
+                    android:layout_gravity="center"
+                    android:background="#50000000"
+                    android:textColor="#ffffff"
+                    android:layout_marginTop="5dp"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_weight="1"
+                    android:onClick="ee"
+                    android:adjustViewBounds="true"
+                    android:layout_gravity="center"
+                    android:background="#00000000"
+                    android:textColor="#ffffff"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="2dp" />
+
+                <Button
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:layout_gravity="center"
+                    android:textColor="#ffffff"
+                    android:background="#00000000" />
+            </LinearLayout>
+        </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                android:elevation="30dp"
+                android:background="#ada2f2">
+
+
+                <Button
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_weight="1"
+                    android:onClick="ICPS"
+                    android:adjustViewBounds="true"
+                    android:paddingLeft="2dp"
+                    android:text="Introduction to computing and problem solving"
+
+                    android:layout_gravity="center"
+                    android:textColor="#ffffff"
+                    android:background="#80000000"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_weight="1"
+                    android:onClick="Icivil"
+                    android:adjustViewBounds="true"
+                    android:text="Introduction to civil engineering"
+                    android:layout_gravity="center"
+                    android:textColor="#ffffff"
+                    android:background="#50000000"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:paddingEnd="5dp"
+                    android:paddingStart="5dp"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_weight="1"
+                    android:onClick="IEE"
+                    android:adjustViewBounds="true"
+                    android:text="Introduction to electrical engineering"
+                    android:layout_gravity="center"
+                    android:textColor="#ffffff"
+                    android:background="#80000000"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:textSize="12sp" />
+            </LinearLayout>
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3"
+
+                android:elevation="10dp"
+                android:background="#ada2f2">
+
+                <Button
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_weight="1"
+                    android:onClick="IEC"
+                    android:adjustViewBounds="true"
+                    android:paddingLeft="2dp"
+                    android:text="Introduction to electronics engineering"
+
+                    android:layout_gravity="center"
+                    android:background="#50000000"
+                    android:textColor="#ffffff"
+                    android:layout_marginTop="5dp"
+                    android:paddingEnd="5dp"
+                    android:paddingStart="5dp"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_weight="1"
+                    android:onClick="IME"
+                    android:adjustViewBounds="true"
+                    android:layout_gravity="center"
+                    android:background="#80000000"
+                    android:textColor="#ffffff"
+                    style="@android:style/TextAppearance.Small"
+                android:text="Introduction to mechanical engineering"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:layout_gravity="center"
+                    android:textColor="#ffffff"
+                    android:background="#00000000" />
+            </LinearLayout>
+</LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            app:cardCornerRadius="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                android:elevation="30dp"
+                android:background="#f76b26">
+
+                <Button
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:paddingLeft="2dp"
+                    android:text="Engineering Physics Lab "
+
+                    android:layout_gravity="center"
+                    android:textColor="#ffffff"
+                    android:background="#50000000"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:text="Engineering Chemistry Lab "
+                    android:layout_gravity="center"
+                    android:textColor="#ffffff"
+                    android:background="#20000000"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:paddingEnd="5dp"
+                    android:paddingStart="5dp"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:text="Computer Science Workshop"
+                    android:layout_gravity="center"
+                    android:textColor="#ffffff"
+                    android:background="#50000000"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:textSize="12sp" />
+            </LinearLayout>
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3"
+
+                android:elevation="30dp"
+                android:background="#f76b26">
+
+                <Button
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:paddingLeft="2dp"
+                    android:text="Electronics Engineering Workshop"
+
+                    android:layout_gravity="center"
+                    android:textColor="#ffffff"
+                    android:background="#50000000"
+                    android:textSize="12sp"
+                    android:layout_marginTop="5dp" />
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:text="Mechanical Engineering Workshop"
+                    android:layout_gravity="center"
+                    android:textColor="#ffffff"
+                    android:background="#20000000"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:paddingEnd="5dp"
+                    android:paddingStart="5dp"
+                    android:textSize="12sp"
+                    android:layout_marginTop="5dp" />
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:text="Civil Engineering Workshop-"
+                    android:layout_gravity="center"
+                    android:textColor="#ffffff"
+                    android:background="#50000000"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:textSize="12sp"
+                    android:layout_marginTop="5dp" />
+            </LinearLayout>
+            </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </RelativeLayout>
+</android.support.v4.widget.NestedScrollView>
+</android.support.design.widget.CoordinatorLayout>

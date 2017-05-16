@@ -1,28 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.pranavj7.ktuhelper">
+    package="com.z.pranavj7.myktu">
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic7"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
-        <meta-data android:name="com.google.android.gms.version"
-            android:value="@integer/google_play_services_version"/>
-
         <activity
-            android:name="com.example.pranavj7.ktuhelper.Main">
-            <intent-filter >
-                <action android:name="android.intent.action.MAIN"/>
+            android:name=".SplashScreen"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".MainActivity">
+            <intent-filter >
+                <action android:name="com.example.package_path.MainActivity"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
         <activity android:name=".s1s2"
-            android:parentActivityName="com.example.pranavj7.ktuhelper.Main"
+            android:parentActivityName=".MainActivity"
             android:label="Subjects">
 
             <intent-filter>
@@ -32,7 +36,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".s3s4"
-            android:parentActivityName="com.example.pranavj7.ktuhelper.Main"
+            android:parentActivityName=".MainActivity"
         android:label="Branches">
 
             <intent-filter>
@@ -41,8 +45,8 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".Network"
-            android:parentActivityName="com.example.pranavj7.ktuhelper.s3s4"
+        <activity android:name=".subjectsS3S4"
+            android:parentActivityName=".s3s4"
             android:label="Subjects">
 
             <intent-filter>
@@ -52,8 +56,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.pranavj7.ktuhelper.DetailActivity"
-            android:parentActivityName="com.example.pranavj7.ktuhelper.Network"
+            android:name=".DetailActivity"
+            android:parentActivityName=".subjectsS3S4"
             android:label="Syllabus">
             <intent-filter >
                 <action android:name="com.example.package_path.SecondActivity"/>
@@ -62,8 +66,8 @@
         </activity>
 
         <activity
-            android:name="com.example.pranavj7.ktuhelper.DetailActivitys1s2"
-            android:parentActivityName="com.example.pranavj7.ktuhelper.s1s2"
+            android:name=".DetailActivitys1s2"
+            android:parentActivityName=".s1s2"
             android:label="Syllabus">
             <intent-filter >
                 <action android:name="com.example.package_path.SecondActivity"/>
@@ -71,8 +75,26 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.pranavj7.ktuhelper.DetailQactivity"
+            android:name=".DetailQuestionsactivitys1s2"
+            android:parentActivityName=".DetailActivitys1s2"
             android:label="Questions by year">
+            <intent-filter >
+                <action android:name="com.example.package_path.SecondActivity"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DetailQuestionActivitys3s4"
+            android:parentActivityName=".DetailActivity"
+            android:label="Questions by year">
+            <intent-filter >
+                <action android:name="com.example.package_path.SecondActivity"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DetailNotesactivity"
+            android:label="Notes">
             <intent-filter >
                 <action android:name="com.example.package_path.SecondActivity"/>
                 <category android:name="android.intent.category.DEFAULT" />

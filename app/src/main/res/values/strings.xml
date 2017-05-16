@@ -1,6 +1,6 @@
 <resources>
 <string name="changer"></string>
-    <string name="app_name">KTU helper</string>
+    <string name="app_name">My KTU</string>
 <string name="notifications">Notification</string>
     <string name="about">about</string>
     <string name="sem">Semester</string>
@@ -4816,7 +4816,7 @@ Principle of shaded pole motor – applications.\n\n
 
     <!--**************************** Measurements and instrumentation *************************-->
     <string name="S4EEMEASURE">
-        <font fgcolor="aqua">Text Book:\n
+      <font fgcolor="aqua">Text Book:\n
 1. Sawhney A.K., A course in Electrical and Electronic Measurements and instrumentation, DhanpatRai.\n
 2. J. B. Gupta, A course in Electrical and Electronic Measurement and Instrumentation., S K Kataria and Sons\n
 3. Kalsi H. S., Electronic Instrumentation, 3/e, Tata McGraw Hill, New Delhi, 2012\n\n
@@ -4890,8 +4890,7 @@ piezoelectricforce transducer, load cell, strain gauge- bridge
 configuration for four strain gauges, RTD, Thermistors,
 thermocouple,
 Need for instrumentation system, data acquisition system.\n\n
-<b>END SEMESTER EXAM</b>
-    </string>
+<b>END SEMESTER EXAM</b></string>
 <!-- ****************************************S4EE ELECTRICAL MACHINES LAB ******************************************-->
 <string name="S4EEMACHINESLAB">
 

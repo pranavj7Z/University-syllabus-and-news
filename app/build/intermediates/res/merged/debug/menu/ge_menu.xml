@@ -1,16 +1,17 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
 xmlns:app="http://schemas.android.com/apk/res-auto">
 <item android:id="@+id/action_sort_by"
-    android:title="@string/hello"
+    android:title="Study Materials"
+    android:icon="@drawable/ic_description7"
     app:showAsAction="ifRoom">
     <menu>
         <group android:checkableBehavior="single">
-            <item android:id="@+id/new_game"
-                android:title="Final Exams"
-                android:onClick="onMenuItemClick"/>
-            <item android:id="@+id/new_g"
-                android:title="Supplimentary"
-                android:onClick="onq2"/>
+            <item android:id="@+id/qp"
+                android:title="Question Papers"
+                android:onClick="OnQuestionsClicked"/>
+            <item android:id="@+id/notes"
+                android:title="Notes"
+                android:onClick="OnNotesClicked"/>
         </group>
     </menu>
 </item>

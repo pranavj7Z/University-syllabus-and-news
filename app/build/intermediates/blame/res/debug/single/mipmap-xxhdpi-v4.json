@@ -1,10 +1,22 @@
 [
     {
+        "merged": "C:\\Users\\pinkzz\\Desktop\\ktu helper\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\my_ktu7.png",
+        "source": "C:\\Users\\pinkzz\\Desktop\\ktu helper\\app\\src\\main\\res\\mipmap-xxhdpi\\my_ktu7.png"
+    },
+    {
         "merged": "C:\\Users\\pinkzz\\Desktop\\ktu helper\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_launcher.png",
         "source": "C:\\Users\\pinkzz\\Desktop\\ktu helper\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\pinkzz\\Desktop\\ktu helper\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ktu7777.jpg",
         "source": "C:\\Users\\pinkzz\\Desktop\\ktu helper\\app\\src\\main\\res\\mipmap-xxhdpi\\ktu7777.jpg"
+    },
+    {
+        "merged": "C:\\Users\\pinkzz\\Desktop\\ktu helper\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\my_ktu.png",
+        "source": "C:\\Users\\pinkzz\\Desktop\\ktu helper\\app\\src\\main\\res\\mipmap-xxhdpi\\my_ktu.png"
+    },
+    {
+        "merged": "C:\\Users\\pinkzz\\Desktop\\ktu helper\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic7.png",
+        "source": "C:\\Users\\pinkzz\\Desktop\\ktu helper\\app\\src\\main\\res\\mipmap-xxhdpi\\ic7.png"
     }
 ]

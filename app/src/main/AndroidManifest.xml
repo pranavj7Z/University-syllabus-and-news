@@ -10,6 +10,25 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
+        <service
+            android:enabled="true"
+            android:exported="true"
+            android:name=".FireMessage">
+
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service
+            android:enabled="true"
+            android:exported="true"
+            android:name=".FireService">
+            <intent-filter>
+                <action
+                    android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
         <activity
             android:name=".SplashScreen"
             android:theme="@style/SplashTheme">
@@ -77,34 +96,18 @@
         <activity
             android:name=".DetailQuestionsactivitys1s2"
             android:parentActivityName=".DetailActivitys1s2"
-            android:label="Questions by year">
-            <intent-filter >
-                <action android:name="com.example.package_path.SecondActivity"/>
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
+            android:label="Question papers">
         </activity>
         <activity
             android:name=".DetailQuestionActivitys3s4"
             android:parentActivityName=".DetailActivity"
-            android:label="Questions by year">
-            <intent-filter >
-                <action android:name="com.example.package_path.SecondActivity"/>
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
+            android:label="Question papers">
         </activity>
         <activity
             android:name=".DetailNotesactivity"
             android:label="Notes">
             <intent-filter >
                 <action android:name="com.example.package_path.SecondActivity"/>
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".qst_activity"
-            android:label="Question papers">
-            <intent-filter >
-                <action android:name="com.example.package_path.qst_Activity"/>
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>

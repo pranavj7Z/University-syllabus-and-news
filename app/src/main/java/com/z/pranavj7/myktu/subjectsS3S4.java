@@ -10,6 +10,7 @@ import android.view.View;
  */
 public class subjectsS3S4 extends s3s4 {
     static String act = "";
+    static String course = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,12 +41,14 @@ public class subjectsS3S4 extends s3s4 {
 
     public void business(View view){
         act="busi";
+        course="common";
         Intent intent = new Intent(subjectsS3S4.this, DetailActivity.class);
         intent.putExtra("name", R.string.business);
         startActivity(intent);
     }
     public void lac(View view) {
         act = "lac";
+        course="common";
         Intent intent = new Intent(subjectsS3S4.this, DetailActivity.class);
         intent.putExtra("name", R.string.LAC);
         startActivity(intent);
@@ -54,6 +57,7 @@ public class subjectsS3S4 extends s3s4 {
     /**  syllabus for computer science----------------------------------------------------------------------- */
     public void ds(View view) {
         act = "ds";
+        course = "cse";
         Intent intent = new Intent(subjectsS3S4.this, DetailActivity.class);
         intent.putExtra("name", R.string.DS);
         startActivity(intent);
@@ -61,6 +65,7 @@ public class subjectsS3S4 extends s3s4 {
 
     public void dcs(View view) {
         act = "dcs";
+        course = "cse";
         Intent intent = new Intent(subjectsS3S4.this, DetailActivity.class);
         intent.putExtra("name", R.string.DCS);
         startActivity(intent);
@@ -68,6 +73,7 @@ public class subjectsS3S4 extends s3s4 {
 
     public void stld(View view) {
         act = "stld";
+        course = "cse";
         Intent intent = new Intent(subjectsS3S4.this, DetailActivity.class);
         intent.putExtra("name", R.string.STLD);
         startActivity(intent);
@@ -75,6 +81,7 @@ public class subjectsS3S4 extends s3s4 {
 
     public void edc(View view) {
         act = "edc";
+        course = "cse";
         Intent intent = new Intent(subjectsS3S4.this, DetailActivity.class);
         intent.putExtra("name", R.string.EDC);
         startActivity(intent);
@@ -82,6 +89,7 @@ public class subjectsS3S4 extends s3s4 {
 
     public void dslab(View view) {
         act = "dsl";
+        course = "cse";
         Intent intent = new Intent(subjectsS3S4.this, DetailActivity.class);
         intent.putExtra("name", R.string.dslab);
         startActivity(intent);
@@ -89,6 +97,7 @@ public class subjectsS3S4 extends s3s4 {
 
     public void edclab(View view) {
         act = "edcl";
+        course = "cse";
         Intent intent = new Intent(subjectsS3S4.this, DetailActivity.class);
         intent.putExtra("name", R.string.edclab);
         startActivity(intent);
@@ -97,6 +106,7 @@ public class subjectsS3S4 extends s3s4 {
 
     public void enggeo(View view) {
         act = "enggeo";
+        course = "ce";
         Intent intent = new Intent(subjectsS3S4.this, DetailActivity.class);
         intent.putExtra("name", R.string.enggeo);
         startActivity(intent);
@@ -104,6 +114,7 @@ public class subjectsS3S4 extends s3s4 {
 
     public void survey(View view) {
         act = "survey";
+        course = "ce";
         Intent intent = new Intent(subjectsS3S4.this, DetailActivity.class);
         intent.putExtra("name", R.string.survey);
         startActivity(intent);
@@ -112,6 +123,7 @@ public class subjectsS3S4 extends s3s4 {
 
     public void solids(View view) {
         act = "solids";
+        course = "ce";
         Intent intent = new Intent(subjectsS3S4.this, DetailActivity.class);
         intent.putExtra("name", R.string.solid);
         startActivity(intent);
@@ -119,6 +131,7 @@ public class subjectsS3S4 extends s3s4 {
 
     public void mech1(View view) {
         act = "mech1";
+        course = "ce";
         Intent intent = new Intent(subjectsS3S4.this, DetailActivity.class);
         intent.putExtra("name", R.string.mech1);
         startActivity(intent);
@@ -126,6 +139,7 @@ public class subjectsS3S4 extends s3s4 {
 
     public void draft(View view) {
         act = "draftl";
+        course = "ce";
         Intent intent = new Intent(subjectsS3S4.this, DetailActivity.class);
         intent.putExtra("name", R.string.draftlab);
         startActivity(intent);
@@ -133,6 +147,7 @@ public class subjectsS3S4 extends s3s4 {
 
     public void surveylab(View view) {
         act = "surveryl";
+        course = "ce";
         Intent intent = new Intent(subjectsS3S4.this, DetailActivity.class);
         intent.putExtra("name", R.string.surveylab);
         startActivity(intent);
@@ -142,6 +157,7 @@ public class subjectsS3S4 extends s3s4 {
 
     public void can(View view) {
         act = "can";
+        course = "eee";
         Intent intent = new Intent(subjectsS3S4.this, DetailActivity.class);
         intent.putExtra("name", R.string.CAN);
         startActivity(intent);
@@ -149,6 +165,7 @@ public class subjectsS3S4 extends s3s4 {
 
     public void aec(View view) {
         act = "aec";
+        course = "eee";
         Intent intent = new Intent(subjectsS3S4.this, DetailActivity.class);
         intent.putExtra("name", R.string.AEC);
         startActivity(intent);
@@ -156,6 +173,7 @@ public class subjectsS3S4 extends s3s4 {
 
     public void dcm(View view) {
         act = "dcm";
+        course = "eee";
         Intent intent = new Intent(subjectsS3S4.this, DetailActivity.class);
         intent.putExtra("name", R.string.DCMT);
         startActivity(intent);
@@ -163,18 +181,21 @@ public class subjectsS3S4 extends s3s4 {
 
     public void cpm(View view) {
         act = "cpm";
+        course = "eee";
         Intent intent = new Intent(subjectsS3S4.this, DetailActivity.class);
         intent.putExtra("name", R.string.CP);
         startActivity(intent);
     }
     public void eeecl(View view){
         act="eeecl";
+        course = "eee";
         Intent intent = new Intent(subjectsS3S4.this,DetailActivity.class);
         intent.putExtra("name", R.string.eecla);
         startActivity(intent);
     }
     public void cpl(View view){
         act="cpl";
+        course = "eee";
         Intent intent = new Intent(subjectsS3S4.this,DetailActivity.class);
         intent.putExtra("name", R.string.cpl);
         startActivity(intent);
@@ -184,6 +205,7 @@ public class subjectsS3S4 extends s3s4 {
 
     public void net(View view) {
         act = "net";
+        course = "ece";
         Intent intent = new Intent(subjectsS3S4.this, DetailActivity.class);
         intent.putExtra("name", R.string.netwrk);
         startActivity(intent);
@@ -191,6 +213,7 @@ public class subjectsS3S4 extends s3s4 {
 
     public void sd(View view) {
         act = "sd";
+        course = "ece";
         Intent intent = new Intent(subjectsS3S4.this, DetailActivity.class);
         intent.putExtra("name", R.string.solidstate);
         startActivity(intent);
@@ -198,6 +221,7 @@ public class subjectsS3S4 extends s3s4 {
 
     public void ecirc(View view) {
         act = "ecirc";
+        course = "ece";
         Intent intent = new Intent(subjectsS3S4.this, DetailActivity.class);
         intent.putExtra("name", R.string.ecc);
         startActivity(intent);
@@ -205,18 +229,21 @@ public class subjectsS3S4 extends s3s4 {
 
     public void lcd(View view) {
         act = "lcd";
+        course = "ece";
         Intent intent = new Intent(subjectsS3S4.this, DetailActivity.class);
         intent.putExtra("name", R.string.lcd);
         startActivity(intent);
     }
     public void ecedcl(View view){
         act="ecedcl";
+        course = "ece";
         Intent intent = new Intent(subjectsS3S4.this,DetailActivity.class);
         intent.putExtra("name", R.string.ecedcl);
         startActivity(intent);
     }
     public void edal(View view){
         act="edal";
+        course = "ece";
         Intent intent = new Intent(subjectsS3S4.this,DetailActivity.class);
         intent.putExtra("name", R.string.edal);
         startActivity(intent);
@@ -225,6 +252,7 @@ public class subjectsS3S4 extends s3s4 {
 
 public void mes(View view) {
     act = "mes";
+    course = "me";
     Intent intent = new Intent(subjectsS3S4.this, DetailActivity.class);
     intent.putExtra("name", R.string.mesolid);
     startActivity(intent);
@@ -232,6 +260,7 @@ public void mes(View view) {
 
     public void mef(View view) {
         act = "mef";
+        course = "me";
         Intent intent = new Intent(subjectsS3S4.this, DetailActivity.class);
         intent.putExtra("name", R.string.mefluid);
         startActivity(intent);
@@ -239,6 +268,7 @@ public void mes(View view) {
 
     public void thermo(View view) {
         act = "thermo";
+        course = "me";
         Intent intent = new Intent(subjectsS3S4.this, DetailActivity.class);
         intent.putExtra("name", R.string.thermo);
         startActivity(intent);
@@ -246,18 +276,21 @@ public void mes(View view) {
 
     public void metal(View view) {
         act = "metal";
+        course = "me";
         Intent intent = new Intent(subjectsS3S4.this, DetailActivity.class);
         intent.putExtra("name", R.string.metal);
         startActivity(intent);
     }
     public void cad(View view){
         act="cad";
+        course = "me";
         Intent intent = new Intent(subjectsS3S4.this,DetailActivity.class);
         intent.putExtra("name", R.string.CAD);
         startActivity(intent);
     }
     public void Material(View view){
         act="material";
+        course = "me";
         Intent intent = new Intent(subjectsS3S4.this,DetailActivity.class);
         intent.putExtra("name", R.string.edal);
         startActivity(intent);
@@ -269,18 +302,21 @@ public void mes(View view) {
 
     public void LS(View view){
         act="ls";
+        course = "common";
         Intent intent = new Intent(subjectsS3S4.this, DetailActivity.class);
         intent.putExtra("name", R.string.S4LS);
         startActivity(intent);
     }
     public void PTN(View view) {
         act = "ptn";
+        course = "common";
         Intent intent = new Intent(subjectsS3S4.this, DetailActivity.class);
         intent.putExtra("name", R.string.S4PTN);
         startActivity(intent);
     }
     public void PRN(View view) {
         act = "prn";
+        course = "common";
         Intent intent = new Intent(subjectsS3S4.this, DetailActivity.class);
         intent.putExtra("name", R.string.S4PRN);
         startActivity(intent);
@@ -289,6 +325,7 @@ public void mes(View view) {
     /**  syllabus for computer science----------------------------------------------------------------------- */
     public void OS(View view) {
         act = "os";
+        course = "cse";
         Intent intent = new Intent(subjectsS3S4.this, DetailActivity.class);
         intent.putExtra("name", R.string.S4OS);
         startActivity(intent);
@@ -296,6 +333,7 @@ public void mes(View view) {
 
     public void COA(View view) {
         act = "coa";
+        course = "cse";
         Intent intent = new Intent(subjectsS3S4.this, DetailActivity.class);
         intent.putExtra("name", R.string.S4COA);
         startActivity(intent);
@@ -303,6 +341,7 @@ public void mes(View view) {
 
     public void OOD(View view) {
         act = "ood";
+        course = "cse";
         Intent intent = new Intent(subjectsS3S4.this, DetailActivity.class);
         intent.putExtra("name", R.string.S4OOD);
         startActivity(intent);
@@ -310,6 +349,7 @@ public void mes(View view) {
 
     public void PDD(View view) {
         act = "pdd";
+        course = "cse";
         Intent intent = new Intent(subjectsS3S4.this, DetailActivity.class);
         intent.putExtra("name", R.string.S4PDD);
         startActivity(intent);
@@ -317,6 +357,7 @@ public void mes(View view) {
 
     public void FOSS(View view) {
         act = "foss";
+        course = "cse";
         Intent intent = new Intent(subjectsS3S4.this, DetailActivity.class);
         intent.putExtra("name", R.string.S4FOSS);
         startActivity(intent);
@@ -324,6 +365,7 @@ public void mes(View view) {
 
     public void DSL(View view) {
         act = "dsl";
+        course = "cse";
         Intent intent = new Intent(subjectsS3S4.this, DetailActivity.class);
         intent.putExtra("name", R.string.S4DSL);
         startActivity(intent);
@@ -332,6 +374,7 @@ public void mes(View view) {
     /**  syllabus for CIVIL ENGINEERING----------------------------------------------------------------------- */
     public void SA1(View view) {
         act = "sa1";
+        course = "ce";
         Intent intent = new Intent(subjectsS3S4.this, DetailActivity.class);
         intent.putExtra("name", R.string.S4STR);
         startActivity(intent);
@@ -339,6 +382,8 @@ public void mes(View view) {
 
     public void CT(View view) {
         act = "ct";
+        course = "ce";
+
         Intent intent = new Intent(subjectsS3S4.this, DetailActivity.class);
         intent.putExtra("name", R.string.S4CONS);
         startActivity(intent);
@@ -346,6 +391,7 @@ public void mes(View view) {
 
     public void FM2(View view) {
         act = "fm2";
+        course = "ce";
         Intent intent = new Intent(subjectsS3S4.this, DetailActivity.class);
         intent.putExtra("name", R.string.S4FM2);
         startActivity(intent);
@@ -353,6 +399,7 @@ public void mes(View view) {
 
     public void GE1(View view) {
         act = "ge1";
+        course = "ce";
         Intent intent = new Intent(subjectsS3S4.this, DetailActivity.class);
         intent.putExtra("name", R.string.S4GEO1);
         startActivity(intent);
@@ -360,6 +407,7 @@ public void mes(View view) {
 
     public void MTL1(View view) {
         act = "mtl1";
+        course = "ce";
         Intent intent = new Intent(subjectsS3S4.this, DetailActivity.class);
         intent.putExtra("name", R.string.S4MTLAB1);
         startActivity(intent);
@@ -367,6 +415,7 @@ public void mes(View view) {
 
     public void FML(View view) {
         act = "fml";
+        course = "ce";
         Intent intent = new Intent(subjectsS3S4.this, DetailActivity.class);
         intent.putExtra("name", R.string.S4FML);
         startActivity(intent);
@@ -376,6 +425,7 @@ public void mes(View view) {
 
 public void SAS(View view) {
     act = "sas";
+    course = "ece";
     Intent intent = new Intent(subjectsS3S4.this, DetailActivity.class);
     intent.putExtra("name", R.string.S4ECSIG);
     startActivity(intent);
@@ -383,6 +433,7 @@ public void SAS(View view) {
 
     public void AIC(View view) {
         act = "aic";
+        course = "ece";
         Intent intent = new Intent(subjectsS3S4.this, DetailActivity.class);
         intent.putExtra("name", R.string.S4ANALO);
         startActivity(intent);
@@ -390,6 +441,7 @@ public void SAS(View view) {
 
     public void CO(View view) {
         act = "co";
+        course = "ece";
         Intent intent = new Intent(subjectsS3S4.this, DetailActivity.class);
         intent.putExtra("name", R.string.S4ECCO);
         startActivity(intent);
@@ -397,6 +449,7 @@ public void SAS(View view) {
 
     public void ACE(View view) {
         act = "ace";
+        course = "ece";
         Intent intent = new Intent(subjectsS3S4.this, DetailActivity.class);
         intent.putExtra("name", R.string.S4ECANALOGCOM);
         startActivity(intent);
@@ -404,6 +457,7 @@ public void SAS(View view) {
 
     public void AICL(View view) {
         act = "aicl";
+        course = "ece";
         Intent intent = new Intent(subjectsS3S4.this, DetailActivity.class);
         intent.putExtra("name", R.string.S4ECINTEGRATEDLAB);
         startActivity(intent);
@@ -411,6 +465,7 @@ public void SAS(View view) {
 
     public void LCDL(View view) {
         act = "lcdl";
+        course = "ece";
         Intent intent = new Intent(subjectsS3S4.this, DetailActivity.class);
         intent.putExtra("name", R.string.S4ECLOGICLAB);
         startActivity(intent);
@@ -421,6 +476,7 @@ public void SAS(View view) {
 
     public void AMS(View view) {
         act = "ams";
+        course = "me";
         Intent intent = new Intent(subjectsS3S4.this, DetailActivity.class);
         intent.putExtra("name", R.string.S4MEADVANCED);
         startActivity(intent);
@@ -428,6 +484,7 @@ public void SAS(View view) {
 
     public void TE(View view) {
         act = "te";
+        course = "me";
         Intent intent = new Intent(subjectsS3S4.this, DetailActivity.class);
         intent.putExtra("name", R.string.S4METHERMAL);
         startActivity(intent);
@@ -435,6 +492,7 @@ public void SAS(View view) {
 
     public void FMACHINE(View view) {
         act = "fmachine";
+        course = "me";
         Intent intent = new Intent(subjectsS3S4.this, DetailActivity.class);
         intent.putExtra("name", R.string.S4MEFLUIDMACHINE);
         startActivity(intent);
@@ -442,6 +500,7 @@ public void SAS(View view) {
 
     public void MT(View view) {
         act = "mt";
+        course = "me";
         Intent intent = new Intent(subjectsS3S4.this, DetailActivity.class);
         intent.putExtra("name", R.string.S4MEMANUFACT);
         startActivity(intent);
@@ -449,6 +508,7 @@ public void SAS(View view) {
 
     public void TEL(View view) {
         act = "tel";
+        course = "me";
         Intent intent = new Intent(subjectsS3S4.this, DetailActivity.class);
         intent.putExtra("name", R.string.S4METHERMALLAB);
         startActivity(intent);
@@ -465,6 +525,7 @@ public void SAS(View view) {
 
     public void SAIM (View view) {
         act = "saim";
+        course = "eee";
         Intent intent = new Intent(subjectsS3S4.this, DetailActivity.class);
         intent.putExtra("name", R.string.S4EESYNC);
         startActivity(intent);
@@ -472,6 +533,7 @@ public void SAS(View view) {
 
     public void DEALD(View view) {
         act = "deald";
+        course = "eee";
         Intent intent = new Intent(subjectsS3S4.this, DetailActivity.class);
         intent.putExtra("name", R.string.S4EEDIGITAL);
         startActivity(intent);
@@ -479,6 +541,7 @@ public void SAS(View view) {
 
     public void MS(View view) {
         act = "ms";
+        course = "eee";
         Intent intent = new Intent(subjectsS3S4.this, DetailActivity.class);
         intent.putExtra("name", R.string.S4EEMATERIAL);
         startActivity(intent);
@@ -486,6 +549,7 @@ public void SAS(View view) {
 
     public void MAI(View view) {
         act = "mai";
+        course = "eee";
         Intent intent = new Intent(subjectsS3S4.this, DetailActivity.class);
         intent.putExtra("name", R.string.S4EEMEASURE);
         startActivity(intent);
@@ -493,6 +557,7 @@ public void SAS(View view) {
 
     public void CAML(View view) {
         act = "caml";
+        course = "eee";
         Intent intent = new Intent(subjectsS3S4.this, DetailActivity.class);
         intent.putExtra("name", R.string.S4EECIRCUITSLAB);
         startActivity(intent);
@@ -500,6 +565,7 @@ public void SAS(View view) {
 
     public void EML1(View view) {
         act = "eml1";
+        course = "eee";
         Intent intent = new Intent(subjectsS3S4.this, DetailActivity.class);
         intent.putExtra("name", R.string.S4EEMACHINESLAB);
         startActivity(intent);

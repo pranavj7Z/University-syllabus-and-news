@@ -14,10 +14,10 @@ public class SelectYearFragment$$ViewBinder<T extends SelectYearFragment> implem
   public Unbinder bind(final Finder finder, final T target, Object source) {
     InnerUnbinder unbinder = createUnbinder(target);
     View view;
-    view = finder.findRequiredView(source, 2131493017, "field 'first'");
-    target.first = finder.castView(view, 2131493017, "field 'first'");
-    view = finder.findRequiredView(source, 2131493018, "field 'second'");
-    target.second = finder.castView(view, 2131493018, "field 'second'");
+    view = finder.findRequiredView(source, 2131493018, "field 'first'");
+    target.first = finder.castView(view, 2131493018, "field 'first'");
+    view = finder.findRequiredView(source, 2131493019, "field 'second'");
+    target.second = finder.castView(view, 2131493019, "field 'second'");
     return unbinder;
   }
 

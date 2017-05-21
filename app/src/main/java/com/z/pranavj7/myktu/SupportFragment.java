@@ -6,7 +6,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageButton;
-
 import butterknife.ButterKnife;
 /**
  * Created by pinkzz on 3/19/2017.

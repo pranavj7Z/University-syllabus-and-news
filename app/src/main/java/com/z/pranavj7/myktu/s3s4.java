@@ -29,21 +29,18 @@ public class s3s4 extends AppCompatActivity {
     net = "cs";
     Intent slideactivity = new Intent(s3s4.this,subjectsS3S4.class);
     startActivity(slideactivity);
-    overridePendingTransition(android.R.anim.slide_in_left, android.R.anim.slide_out_right);
 }
     public void ce(View view)
     {
         net = "ce";
         Intent slideactivity = new Intent(s3s4.this,subjectsS3S4.class);
         startActivity(slideactivity);
-        overridePendingTransition(android.R.anim.slide_in_left, android.R.anim.slide_out_right);
     }
     public void ee(View view)
     {
         net = "ee";
         Intent slideactivity = new Intent(s3s4.this,subjectsS3S4.class);
         startActivity(slideactivity);
-        overridePendingTransition(android.R.anim.slide_in_left, android.R.anim.slide_out_right);
     }
 
     public void ec(View view)
@@ -51,13 +48,11 @@ public class s3s4 extends AppCompatActivity {
         net = "ec";
         Intent slideactivity = new Intent(s3s4.this,subjectsS3S4.class);
         startActivity(slideactivity);
-        overridePendingTransition(android.R.anim.slide_in_left, android.R.anim.slide_out_right);
     }
     public void me(View view)
     {
         net = "me";
         Intent slideactivity = new Intent(s3s4.this,subjectsS3S4.class);
         startActivity(slideactivity);
-        overridePendingTransition(android.R.anim.slide_in_left, android.R.anim.slide_out_right);
     }
 }

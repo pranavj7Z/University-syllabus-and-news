@@ -10,7 +10,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:textSize="40dp"
+        android:textSize="40sp"
         android:textStyle="bold"
         android:layout_marginTop="60dp"
         android:gravity="center"
@@ -53,7 +53,6 @@
                 android:id="@+id/dev1"
                 android:layout_width="wrap_content"
                 android:layout_weight ="1"
-                android:elevation="5dp"
                 android:layout_marginLeft="20dp"
                 android:layout_gravity="center"
                 android:src="@drawable/ic_person"

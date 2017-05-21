@@ -29,8 +29,14 @@ public final class ShareFragment extends Fragment {
                 share.addFlags(Intent.FLAG_ACTIVITY_CLEAR_WHEN_TASK_RESET);
                 // Add data to the intent, the receiving app will decide
                 // what to do with it.
-                share.putExtra(Intent.EXTRA_SUBJECT, "HelloNotes");
-                share.putExtra(Intent.EXTRA_TEXT, "http://play.google.com/store/apps/details?id=com.pranavj7.android.");
+                share.putExtra(Intent.EXTRA_TEXT, "\t\t\t\t"+ "Download My KTU from playstore" + "\n\n"
+                        +"♦ Get easy access to syllabus" +  "\n"
+                        +"♦ Stay updated with latest Announcements from KTU" + "\n"
+                        +"♦ Get push notification alerts" + "\n"
+                        +"♦ Get easy access to previous year question papers and model questions papers.More study materials available soon." +"\n"
+                        +"♦ Current supported devices - Android 4.4 and up."+ "\n\n"
+                        +"NOTE:lower device support coming soon stay tuned!"+"\n\n" + "http://play.google.com/store/apps/details?id=com.z.pranavj7.myktu");
+ //               share.putExtra(Intent.EXTRA_TEXT, "http://play.google.com/store/apps/details?id=com.z.pranavj7.myktu");
                 startActivity(Intent.createChooser(share, "Share link!"));
             }
         });

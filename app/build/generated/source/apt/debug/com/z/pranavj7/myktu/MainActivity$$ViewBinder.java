@@ -14,10 +14,10 @@ public class MainActivity$$ViewBinder<T extends MainActivity> implements ViewBin
   public Unbinder bind(final Finder finder, final T target, Object source) {
     InnerUnbinder unbinder = createUnbinder(target);
     View view;
-    view = finder.findRequiredView(source, 2131492988, "field 'mDrawer'");
-    target.mDrawer = finder.castView(view, 2131492988, "field 'mDrawer'");
-    view = finder.findRequiredView(source, 2131492992, "field 'mNavigationView'");
-    target.mNavigationView = finder.castView(view, 2131492992, "field 'mNavigationView'");
+    view = finder.findRequiredView(source, 2131492989, "field 'mDrawer'");
+    target.mDrawer = finder.castView(view, 2131492989, "field 'mDrawer'");
+    view = finder.findRequiredView(source, 2131492994, "field 'mNavigationView'");
+    target.mNavigationView = finder.castView(view, 2131492994, "field 'mNavigationView'");
     return unbinder;
   }
 

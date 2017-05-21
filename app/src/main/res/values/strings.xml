@@ -1,11 +1,14 @@
 <resources>
 <string name="changer"></string>
+    <string name="materials"><font fgcolor="white">Materials</font></string>
     <string name="app_name">My KTU</string>
 <string name="notifications">Notification</string>
     <string name="about">about</string>
     <string name="sem">Semester</string>
+    <string name="ecw"></string>
+    <string name="myktuan"><b>My KTU - ANNOUNCEMENTS</b></string>
 <string name="hello"><font fgsize="10sp">Question papers</font></string>
-    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="banner_ad_unit_id">ca-app-pub-8536273912281952/1467976225</string>
     <string name="eecla"><font fgcolor="aqua">List of Exercises/Experiments : ( Out of 18 experiments listed, 12 experiments are mandatory.</font>
 1.Study and Use of CRO: Measurement of current voltage, frequency and phase shift.\n
 2.Half wave and Full wave (Centre-tapped and bridge) Rectifiers with and without filters-
@@ -2389,7 +2392,7 @@ of RL, RC, RLC circuits
 
 <b>SECOND INTERNAL EXAMINATION</b>\n\n
 
-<font fgcolor="yellow">Module V</font>\n\n
+<font fgcolor="yellow">Module V</font>\n
 <font fgcolor="aqua">Complex Power :</font>\n Concept of Power factor:
 active , reactive and apparent power
 Resonance in series and parallel circuits
@@ -2397,7 +2400,7 @@ Energy, bandwidth and quality factor, variation
 of impedance and admittance in series and
 parallel resonant circuits 20%\n\n
 
-<font fgcolor="yellow">Module VI</font>\n\n
+<font fgcolor="yellow">Module VI</font>\n
 <font fgcolor="aqua">Three phase systems: </font> Star and delta
 connections, three-phase three wire and threephase
 four-wire systems
@@ -2465,7 +2468,7 @@ applications.15%\n\n
 
 <b>SECOND INTERNAL EXAM</b>\n
 
-<font fgcolor="Module V"></font>\n
+<font fgcolor="yellow">Module V</font>\n
     <font fgcolor="aqua">Engineering Materials:</font>\n
     Introduction and history of materials;Basic crystallography;metals,alloys,composites,,ceramics,polymers;
     mechanical properties and testing of engineering materials.20%\n\n
@@ -2487,7 +2490,7 @@ Pearson Publishers.\n
 Education Services\n
 • Rangwala, S. C. and Dalal, K. B., Engineering Materials, Charotar Publishing house\n
 • Rangwala, S. C. and Dalal, K. B., Building Construction, Charotar Publishing house</font>\n\n
-<font fgcolor="aqua">Module I </font>\n General introduction to Civil Engineering - History of Civil
+<font fgcolor="yellow">Module I </font>\n General introduction to Civil Engineering - History of Civil
 Engineering - Relevance of Civil Engineering in the overall
 infrastructural development of the country.
 Types and classification of structures - buildings, towers, chimneys,
@@ -3062,16 +3065,16 @@ aspects that could make or mar it.20%\n\n
     4. Andrew S Tanenbaum, Herbert Bos, Modern Operating Systems, Pearson, 4/e, 2015.\n
     5. Madnick S. and J. Donovan, Operating Systems, McGraw Hill, 2001.\n
     6. Hanson P. B., Operating System Principle, Prentice Hall of India, 2001.\n
-    7. Deitel H. M., An Introduction to Operating System Principles, Addison-Wesley, 1990.\n\n</font>
+    7. Deitel H. M., An Introduction to Operating System Principles, Addison-Wesley, 1990.\n\n</font>\n\n
 
-    <font fgcolor= "yellow">Module I </font>\n\n
+    <font fgcolor= "yellow">Module I </font>\n
     <font fgcolor="aqua">Introduction:</font> Functions of an operating system. Single processor, multiprocessor and clustered systems – overview.\n
     Kernel Data Structures – Operating Systems used in different computing environments.\n
     Operating System Interfaces and implementation - User Interfaces, System Calls – examples.\n
     Operating System implementation - approaches. Operating System Structure – Monolithic, Layered, Micro-kernel, Modular.\n
     System Boot process.(7 hr)\n
     marks - 15%\n\n
-    <font fgcolor="yellow">Module II</font>\n\n
+    <font fgcolor="yellow">Module II</font>\n
     <font fgcolor="aqua">Process Management:</font>\n
     Process Concept – Processes-States – Process Control Block – Threads.\n
     Scheduling – Queues – Schedulers – Context Switching. Process Creation and Termination.\n\n
@@ -3080,7 +3083,7 @@ aspects that could make or mar it.20%\n\n
 
     <b>FIRST INTERNAL EXAMINATION</b>\n\n
 
-    <font fgcolor="yellow">Module III</font>\n\n
+    <font fgcolor="yellow">Module III</font>\n
 
     <font fgcolor="aqua">Process Synchronization:</font>
     Critical Section-Petersons solution.\n
@@ -3088,16 +3091,16 @@ aspects that could make or mar it.20%\n\n
     Dining Philosophers and Readers-Writers Problems.(9hrs).\n
     marks-15%\n\n
 
-    <font fgcolor="yellow">Module IV</font>\n\n
+    <font fgcolor="yellow">Module IV</font>\n
     CPU Scheduling – Scheduling Criteria – Scheduling Algorithms.\n
     Deadlocks – Conditions, Modeling using graphs. Handling – Prevention – Avoidance – Detection- Recovery (8hrs).\n
     marks-15%\n\n
     <b>SECOND INTERNAL EXAMINATION</b>\n\n
-    <font fgcolor="yellow">Module V</font>\n\n
+    <font fgcolor="yellow">Module V</font>\n
     <font fgcolor="aqua">Memory Management:</font> Main Memory – Swapping – Contiguous Memory allocation\n
     – Segmentation – Paging – Demand paging.(9hrs)\n
     marks-20%\n\n
-    <font fgcolor="yellow">Module VI</font>\n\n
+    <font fgcolor="yellow">Module VI</font>\n
     <font fgcolor="aqua">Storage Management:</font> Overview of mass storage structure- disks and tapes. Disk structure – accessing disks. Disk scheduling and management.
     Swap Space\n.
     <font fgcolor="aqua">File System Interface:</font> File Concepts – Attributes – operations – types – structure – access methods. File system mounting.\n
@@ -3119,7 +3122,7 @@ References:\n
 3. Flanagan D., Java in A Nutshell, 5/e, OReilly, 2005.\n
 4. Barclay K., J. Savage, Object Oriented Design with UML and Java, Elsevier, 2004.\n
 5. Sierra K., Head First Java, 2/e, OReilly, 2005.\n
-6. Balagurusamy E., Programming JAVA a Primer, 5/e, McGraw Hill, 2014.\n
+6. Balagurusamy E., Programming JAVA a Primer, 5/e, McGraw Hill, 2014.\n\n
 
         <font fgcolor="yellow">Module I</font>\n
 Object oriented concepts, Object oriented systems development life cycle.\n
@@ -3129,11 +3132,11 @@ Object oriented concepts, Object oriented systems development life cycle.\n
 (08hrs)\n
 marks-15%\n\n
 
-        <font fgcolor="yellow">Module II</font>\n\n
+        <font fgcolor="yellow">Module II</font>\n
 Classes fundamentals, objects, methods, constructors, parameter passing, overloading, access control keywords.(07hrs)\n
 marks-15%\n\n
 
-<b>FIRST INTERNAL EXAMINATION</b>\n
+<b>FIRST INTERNAL EXAMINATION</b>\n\n
 
         <font fgcolor="yellow">Module III</font>\n
 Inheritance basics, method overriding, abstract classes, interface. Defining and importing packages.\n
@@ -3141,20 +3144,20 @@ Inheritance basics, method overriding, abstract classes, interface. Defining and
 (06hrs)\n
 marks-15%\n\n
 
-        <font fgcolor="yellow">Module IV</font>\n\n
+        <font fgcolor="yellow">Module IV</font>\n
 <font fgcolor="aqua">Input/Output: </font>files, stream classes, reading console input.\n <font fgcolor="aqua">Threads:</font> thread model,\n use of Thread class and Runnable interface,
         thread synchronization, multithreading.\n
 (06hrs)\n
 marks-15%\n\n
 <b>SECOND INTERNAL EXAMINATION</b>\n\n
-<font fgcolor="yellow">Module V</font>\n\n
+<font fgcolor="yellow">Module V</font>\n
 String class - basics.
 Applet basics and methods.
         <font fgcolor="aqua">Event Handling:</font> delegation event model, event classes, sources, listeners.
 (07hrs)\n
 marks-20%\n\n
 
-        <font fgcolor="yellow">Module VI</font>\n\n
+        <font fgcolor="yellow">Module VI</font>\n
 <font fgcolor="aqua">Introduction to AWT:</font> working with frames, graphics, color, font. AWT Control fundamentals.\n
         Swing overview.
         <font fgcolor="aqua">Java database connectivity:</font> JDBC overview, creating and executing queries, dynamic queries(08hrs)\n
@@ -3177,13 +3180,13 @@ References:\n
 5. Rajaraman V. and T. Radhakrishnan, Computer Organization and Architecture, Prentice Hall, 2011.\n
 6. Messmer H. P., The Indispensable PC Hardware Book, 4/e, Addison-Wesley, 2001.</font>\n\n
 
-<font fgcolor="yellow">Module I</font>\n\n
+<font fgcolor="yellow">Module I</font>\n
 Basic Structure of computers–functional units –basic operational concepts –bus structures –software.\n
         Memory locations and addresses – memory operations – instructions and instruction sequencing – addressing modes –
         ARM Example (programs not required). Basic I/O operations – stacks subroutine calls.\n
 (6hrs)\n
 marks-15%\n\n
-<font fgcolor="yellow">Module II</font>\n\n
+<font fgcolor="yellow">Module II</font>\n
 Basic processing unit – fundamental concepts – instruction cycle - execution of a complete instruction –multiple- bus organization –
         sequencing of control signals.
 Arithmetic algorithms: Algorithms for multiplication and division of binary and BCD numbers — array multiplier —Booth’s multiplication algorithm — restoring and non-restoring division — algorithms for floating point, multiplication and division.
@@ -3191,25 +3194,25 @@ Arithmetic algorithms: Algorithms for multiplication and division of binary and 
 marks-15%\n\n
 
         <b>FIRST INTERNAL EXAMINATION</b>\n\n
-<font fgcolor="yellow">Module III</font>\n\n
+<font fgcolor="yellow">Module III</font>\n
 <font fgcolor="aqua">I/O organization:</font>\n
         accessing of I/O devices –interrupts –direct memory access –buses –interface circuits –standard I/O interfaces (PCI, SCSI, USB)
 (8hrs)\n
 marks-15%\n\n
-<font fgcolor="yellow">Module IV</font>\n\n
-<font fgcolor="aqua">Memory system :</font>\n\n
+<font fgcolor="yellow">Module IV</font>\n
+<font fgcolor="aqua">Memory system :</font>\n
         basic concepts –semiconductor RAMs –memory system considerations –semiconductor ROMs –flash memory \n
         –cache memory and mapping functions.\n
 (9hrs)\n
 marks-15%\n\n
-<b>SECOND INTERNAL EXAMINATION</b>\n
-<font fgcolor="yellow">Module V</font>\n\n
+<b>SECOND INTERNAL EXAMINATION</b>\n\n
+<font fgcolor="yellow">Module V</font>\n
 <font fgcolor="aqua">Processor Logic Design:</font>
         Register transfer logic –inter register transfer – arithmetic, logic and shift micro operations –conditional control statements.\n
 <font fgcolor="aqua">Processor organization: </font>design of arithmetic unit, logic unit, arithmetic logic unit and shifter –status register –processor unit –design of accumulator.
 (9hrs)\n
-marks-20%\n
-<font fgcolor="yellow">Module VI</font>\n\n
+marks-20%\n\n
+<font fgcolor="yellow">Module VI</font>\n
 <font fgcolor="aqua">Control Logic Design:</font> Control organization –design of hardwired control –control of processor unit –PLA control.
         <font fgcolor="aqua">Micro-programmed control:</font> Microinstructions –horizontal and vertical micro instructions –
         micro-program sequencer –micro programmed CPU organization.
@@ -3237,7 +3240,7 @@ Keys, Entity-Relationship Diagram, Weak Entity Sets, Relationships of degree gre
     (06hrs)\n
 marks-15%\n\n
 
-    <font fgcolor="yellow">Module II</font>\n\n
+    <font fgcolor="yellow">Module II</font>\n
 <font fgcolor="aqua">Relational Model:</font> Structure of relational Databases, Integrity Constraints, synthesizing ER diagram to relational schema
     (Reading: ElmasriNavathe, Ch. 3 and 8.1, Additional Reading: Silbershatz, Korth, Ch. 2.1-2.4)\n
 <font fgcolor="aqua"> Database Languages: :</font>Concept of DDL and DML relational algebra (Reading: Silbershatz, Korth, Ch 2.5-2.6 and 6.1-6.2, ElmasriNavathe, Ch. 6.1-6.5)
@@ -3245,19 +3248,19 @@ marks-15%\n\n
 marks-15%\n\n
 <b>FIRST INTERNAL EXAM</b>\n\n
 
-    <font fgcolor="yellow">Module III</font>\n\n
+    <font fgcolor="yellow">Module III</font>\n
 <font fgcolor="aqua">Structured Query Language (SQL):</font> Basic SQL Structure, examples, Set operations, Aggregate Functions,
     nested sub-queries (Reading: ElmasriNavathe, Ch. 4 and 5.1) Views, assertions and triggers (Reading: ElmasriNavathe,
     Ch. 5.2-5.3, Silbershatz, Korth Ch. 5.3). Functions, Procedures and HLL interfaces (Reading: Silbershatz, Korth Ch. 5.1-5.2).
 (07hrs)\n
 marks-15%\n\n
-<font fgcolor="yellow">Module IV</font>\n\n
+<font fgcolor="yellow">Module IV</font>\n
 <font fgcolor="aqua">Relational Database Design:</font> Different anomalies in designing a database, normalization, functional dependency (FD), Armstrong’s Axioms, closures, Equivalence of FDs, minimal Cover (proofs not required). Normalization using functional dependencies, INF, 2NF, 3NF and BCNF, lossless and dependency preserving decompositions (Reading: Elmasri and Navathe, Ch. 14.1-14.5, 15.1-15.2. Additional Reading: Silbershatz, Korth Ch. 8.1-8.5)
 (07hrs)\n
 (marks-15%)\n\n
 <b>SECOND INTERNAL EXAM</b>\n\n
 
-<font fgcolor="aqua">Module V</font>\n\n
+<font fgcolor="yellow">Module V</font>\n
 <font fgcolor="aqua">Physical Data Organization: </font>index structures, primary, secondary and clustering indices, Single level and
     Multi-level indexing, B-Trees and B+-Trees (basic structure only, algorithms not needed), Indexing on multiple keys
     (Reading Elmasri and Navathe, Ch. 17.1-17.4) Query Optimization: algorithms for relational algebra operations, heuristics-based
@@ -3287,32 +3290,32 @@ References:\n
  Shalini Verma (2014); Development of Life Skills and Professional Practice; First Edition; Sultan Chand (G/L) and Company\n
  John C. Maxwell (2014); The 5 Levels of Leadership, Centre Street, A division of Hachette Book Group Inc.\n\n
 
-<font fgcolor="yellow">Module I</font>\n\n
+<font fgcolor="yellow">Module I</font>\n
 Need for Effective Communication, Levels of communication; Flow of communication; Use of language in communication; Communication networks; Significance of technical communication, Types of barriers; Miscommunication; Noise; Overcoming measures,\n
 Listening as an active skill; Types of Listeners; Listening for general content; Listening to fill up information; Intensive Listening; Listening for specific information; Developing effective listening skills; Barriers to effective listening skills.\n
-<font fgcolor="aqua">Technical Writing:</font> Differences between technical and literary style, Elements of style; Common Errors,\n<font fgcolor="aqua">Letter Writing:</font> Formal, informal and demi-official letters; business letters,
-<font fgcolor="aqua">  Job Application:</font>  Cover letter, Differences between bio-data, CV and Resume,
-    <font fgcolor="aqua">Report Writing:</font> Basics of Report Writing; Structure of a report; Types of reports.
+<font fgcolor="aqua">Technical Writing:</font> Differences between technical and literary style, Elements of style; Common Errors,\n<font fgcolor="aqua">Letter Writing:</font> Formal, informal and demi-official letters; business letters,\n
+<font fgcolor="aqua">  Job Application:</font>  Cover letter, Differences between bio-data, CV and Resume,\n
+    <font fgcolor="aqua">Report Writing:</font> Basics of Report Writing; Structure of a report; Types of reports.\n
 <font fgcolor="aqua">Non-verbal Communication and Body Language:</font> Forms of non-verbal communication; Interpreting body-language cues; Kinesics; Proxemics; Chronemics; Effective use of body language\n
 <font fgcolor="aqua">Interview Skills:</font> Types of Interviews; Ensuring success in job interviews; Appropriate use of non-verbal communication,\n
         <font fgcolor="aqua">Group Discussion:</font> Differences between group discussion and debate; Ensuring success in group discussions,\n
         <font fgcolor="aqua">Presentation Skills:</font> Oral presentation and public speaking skills; business presentations,\n
         <font fgcolor="aqua">Technology-based Communication:</font> Netiquettes: effective e-mail messages; power-point presentation; enhancing editing skills using computer software.\n\n
 
-<font fgcolor="yellow">Module II</font>\n\n
+<font fgcolor="yellow">Module II</font>\n
 Need for Creativity in the 21st century, Imagination, Intuition, Experience, Sources of Creativity, Lateral Thinking, Myths of creativity\n
 Critical thinking Vs Creative thinking, Functions of Left Brain and Right brain, Convergent and Divergent Thinking, Critical reading and Multiple Intelligence.\n
 Steps in problem solving, Problem Solving Techniques, Problem Solving through Six Thinking Hats, Mind Mapping,\n
 Forced Connections.
 Problem Solving strategies, Analytical Thinking and quantitative reasoning expressed in written form, Numeric, symbolic, and graphic reasoning, Solving application problems.\n\n
 
-<font fgcolor="yellow">Module III</font>\n\n
+<font fgcolor="yellow">Module III</font>\n
 Introduction to Groups and Teams, Team Composition, Managing Team Performance, Importance of Group, Stages of Group, Group Cycle, Group thinking, getting acquainted, Clarifying expectations.
 Group Problem Solving, Achieving Group Consensus.
 Group Dynamics techniques, Group vs Team, Team Dynamics, Teams for enhancing productivity, Building and Managing Successful Virtual Teams. Managing Team Performance and Managing Conflict in Teams.
 Working Together in Teams, Team Decision-Making, Team Culture and Power, Team Leader Development.\n\n
 
-<font fgcolor="yellow">Module IV</font>\n\n
+<font fgcolor="yellow">Module IV</font>\n
 Morals, Values and Ethics, Integrity, Work Ethic, Service Learning, Civic Virtue, Respect for Others, Living Peacefully.\n
 Caring, Sharing, Honesty, Courage, Valuing Time, Cooperation, Commitment, Empathy, Self-Confidence, Character\n
 Spirituality, Senses of Engineering Ethics, variety of moral issued, Types of inquiry, moral dilemmas, moral autonomy,\n
@@ -3322,7 +3325,7 @@ Engneering as experimentation, engineers as responsible experimenters, Codes of 
 The challenger case study, Multinational corporations, Environmental ethics, computer ethics,\n
 Weapons development, engineers as managers, consulting engineers, engineers as expert witnesses and advisors, moral leadership, sample code of Ethics like ASME, ASCE, IEEE, Institution of Engineers(India),\n Indian Institute of Materials Management, Institution of electronics and telecommunication engineers(IETE), India, etc.\n\n
 
-     <font fgcolor="yellow">Module V</font>\n\n
+     <font fgcolor="yellow">Module V</font>\n
 Introduction, a framework for considering leadership, entrepreneurial and moral leadership, vision, people selection and
         development, cultural dimensions of leadership, style, followers, crises.\n
         Growing as a leader, turnaround leadership, gaining control, trust, managing diverse stakeholders, crisis management
@@ -3353,7 +3356,7 @@ Binomial Distribution-Mean and variance.\n
 Poisson Approximation to the Binomial Distribution. Poisson distribution-Mean and variance.\n
 marks-15%\n\n
 
-        <font fgcolor="yellow">Module II</font>\n\n
+        <font fgcolor="yellow">Module II</font>\n
 <font fgcolor="aqua">Continuous Probability Distributions.(Relevant topics in section 5.1,5.2,5.5,5.7 Text1)</font>\n
 Continuous Random Variable, Probability density function, Cumulative density function, Mean and variance.\n
 Normal Distribution, Mean and variance (without proof).\n
@@ -3362,14 +3365,14 @@ Exponential Distribution, Mean and variance.\n
 marks-15%\n\n
 
 <b>FIRST INTERNAL EXAMINATION</b>\n\n
-<font fgcolor="aqua">Module III</font>\n\n
+<font fgcolor="yellow">Module III</font>\n\n
 <font fgcolor="aqua">Fourier Integrals and transforms. (Relevant topics in section 11.7, 11.8, 11.9 Text2)</font>\n
 Fourier Integrals. Fourier integral theorem (without proof).
 Fourier Transform and inverse transform.
 Fourier Sine and Cosine Transform, inverse transform.
 marks-15%\n\n
 
-        <font fgcolor="yellow">Module IV</font>\n\n
+        <font fgcolor="yellow">Module IV</font>\n
 <font fgcolor="aqua">Laplace transforms. (Relevant topics in section 6.1,6.2,6.3,6.5,6.6 Text2)</font>\n
 Laplace Transforms, linearity, first shifting Theorem.
 Transform of derivative and Integral, Inverse Laplace transform, Solution of ordinary differential equation using Laplace transform.
@@ -3379,13 +3382,13 @@ Differentiation and Integration of transforms.\n
 marks-15%\n\n
 <b>SECOND INTERNAL EXAMINATION</b>\n\n
 
-        <font fgcolor="yellow">Module V</font>\n\n
+        <font fgcolor="yellow">Module V</font>\n
 Numerical Techniques.( Relevant topics in section.19.1,19.2,19.3 Text2)
 Solution Of equations by Iteration, Newton- Raphson Method.
 Interpolation of Unequal intervals-Lagrange’s Interpolation formula.
 Interpolation of Equal intervals-Newton’s forward difference formula, Newton’s Backward difference formula.
 marks-20%\n\n
-<font fgcolor="yellow">Module VI</font>\n\n
+<font fgcolor="yellow">Module VI</font>\n
 <font fgcolor="aqua">Numerical Techniques. ( Relevant topics in section 19.5,20.1,20.3, 21.1 Text2)</font>\n
 Solution to linear System- Gauss Elimination, Gauss Seidal Iteration Method.
 Numeric Integration-Trapezoidal Rule, Simpson’s 1/3 Rule.
@@ -3531,8 +3534,7 @@ indeterminacies – Introduction to force and displacement
 method(step by step procedure)\n
 marks-15%\n\n
 <b>FIRST INTERNAL EXAMINATION</b>\n\n
-<font fgcolor="yellow">Module III</font>\n\n
-
+<font fgcolor="yellow">Module III</font>\n
         <font fgcolor="aqua">Strain Energy methods:</font>
 Analysis of beams, frames and trusses with internal and external
 redundancy – (Simple problems with maximum two redundants)\n
@@ -3544,7 +3546,7 @@ redundancy(Simple problems with maximum two redundants)
 Concepts of effect of prestrain, lack of fit, temperature changes and
 support settlement.(No numerical problems)\n
 marks-15%\n\n
-<font fgcolor="yellow">Module IV</font>\n\n
+<font fgcolor="yellow">Module IV</font>\n
 
 Moving loads and influence lines.
 Introduction to moving loads - concept of influence lines - influence
@@ -3555,7 +3557,7 @@ concentrated loads, uniformly distributed load on shorter and longer
 than the span.
 marks-15%\n\n
 <b>SECOND INTERNAL EXAMINATION</b>\n\n
-<font fgcolor="yellow">Module V</font>\n\n
+<font fgcolor="yellow">Module V</font>\n
 <font fgcolor="aqua">Cables:</font>\n
 Analysis of forces in cables under concentrated and uniformly
 distributed loads - Anchor Cables
@@ -3563,7 +3565,7 @@ distributed loads - Anchor Cables
 Un-stiffened suspension bridges, maximum tension in the suspension
 cable and backstays, pressure on towers.\n
 marks-20%\n\n
-<font fgcolor="yellow">Module VI</font>\n\n
+<font fgcolor="yellow">Module VI</font>\n
 <font fgcolor="aqua">Arches :</font> Theory of arches - Eddys theorem - analysis of three
 hinged arches-Support reactions-normal thrust and Radial shear at
 any section of a parabolic and segmental arch due to simple cases of
@@ -3591,9 +3593,9 @@ Reference Books\n
 6. National Building Code.\n
 7. Neville A.M. and Brooks.J.J, Concrete Technology, Pearson Education.\n
 8. Smith P and Julian W. Building services, Applied Science Pub.\n
-9. Tall building systems and concepts, Monograph on planning and design of Tall building,\n
+9. Tall building systems and concepts, Monograph on planning and design of Tall building,\n\n
 </font>
-<font fgcolor="yellow">Module I</font>\n\n
+<font fgcolor="yellow">Module I</font>\n
 Properties of masonry materials – review of specifications;
 Mortar – Types – Sand – properties – uses.
 Timber products: properties and uses of plywood, fibre board,
@@ -3604,7 +3606,7 @@ Miscellaneous materials (only properties, classifications and their
 use in construction industry): Glass, Plastics, A.C. Sheets, Bitumen,
 Adhesives, Aluminium
 marks-15%\n\n
-<font fgcolor="yellow">Module II</font>\n\n
+<font fgcolor="yellow">Module II</font>\n
 Concrete – Aggregates – Mechanical and Physical properties and tests
 – Grading requirements –
 Water quality for concrete –
@@ -3622,8 +3624,7 @@ deviation –acceptance criteria – mix proportioning (B.I.S method) –
 nominal mixes.
 marks-15%\n\n
 <b>FIRST INTERNAL EXAMINATION</b>\n\n
-<font fgcolor="yellow">Module III</font>\n\n
-
+<font fgcolor="yellow">Module III</font>\n
 Building construction - Preliminary considerations for shallow and
 deep foundations\n
 Masonry – Types of stone masonry – composite walls - cavity walls
@@ -3631,7 +3632,7 @@ and partition walls -Construction details and features – scaffoldings
 Introduction to Cost-effective construction - principles of filler
 slab and rat-trap bond masonry\n
 marks-15%\n\n
-<font fgcolor="yellow">Module IV</font>\n\n
+<font fgcolor="yellow">Module IV</font>\n
 Lintels and arches – types and construction details.
 Floors and flooring – different types of floors and
 floor coverings
@@ -3655,7 +3656,7 @@ Stairs – types - layout and planningElevators
 elevators – handling capacity - arrangement and positioning of lifts –
 Escalators – features –use of ramps
 marks-20%\n\n
-<font fgcolor="yellow">Module VI</font>\n\n
+<font fgcolor="yellow">Module VI</font>\n
 Building failures – General reasons – classification – Causes of
 failures in RCC and Steel structures, Failure due to Fire, Wind and
 Earthquakes.
@@ -3688,7 +3689,7 @@ University Press , India , New Delhi\n
 6. Subramanya K., Open Channel Hydraulics, Tata McGraw Hill, 2009.\n
 7. Ven Te Chow, Open channel Hydraulics, 2009.\n\n
 
-<font fgcolor="yellow">Module I</font>\n\n
+<font fgcolor="yellow">Module I</font>\n
 Hydraulic Machines - Impulse momentum principle, impact of jets,
 force of a jet on fixed and moving vanes. Turbines- classification
 and comparison of velocity triangles for Pelton wheel and reaction
@@ -3697,14 +3698,14 @@ speed, draft tube- different types, penstock, surge tank - types,
 cavitation in turbines (Concepts only).
 marks-15%\n\n
 
-<font fgcolor="yellow">Module II</font>\n\n
+<font fgcolor="yellow">Module II</font>\n
 Pumps- classification of pumps - Centrifugal pumps- types, work
 done, efficiency, minimum speed, velocity triangle for pumps,
 specific speed, priming, limitation of suction lift, net positive
 suction head, cavitation in centrifugal pump (Concepts only).
 marks-15%\n\n
 <b>FIRST INTERNAL EXAMINATION</b>\n\n
-<font fgcolor="yellow">Module III</font>\n\n
+<font fgcolor="yellow">Module III</font>\n
 <font fgcolor="aqua">Introduction :</font> Open channel flow and its relevance in Civil
 Engineering , Comparison of open channel flow and pipe flow .
 Flow in open channels-types of channels, types of flow, geometric
@@ -3734,7 +3735,7 @@ prismatic (Rectangular and trapezoidal only). Computation of length
 of surface profiles, direct step method.\n
 <font fgcolor="aqua">Design of lined open channels :</font> trapezoidal cross-sections only
 marks-20%\n\n
-<font fgcolor="yellow">Module VI</font>\n\n
+<font fgcolor="yellow">Module VI</font>\n
 Dimensional analysis and model studies - dimensions, dimensional
 homogeneity, methods of dimensional analysis, Rayleigh method,
 Buckingham method, dimensionless numbers, Similitude -
@@ -3744,6 +3745,7 @@ Concepts of distorted and undistorted models.
 marks-20%\n\n
 <b>END SEMESTER EXAMINATION</b>\n
     </string>
+
     <!--4. S4 CIVIL **********************************************Geo technical 2 **********-->
 
 
@@ -3770,7 +3772,7 @@ saturation, air content, percentage air voids, moisture content,
 specific gravity, unit weight - Relationship between basic soil
 properties – Sensitivity – Thixotropy - numerical problems 6
 marks-15%\n\n
-<font fgcolor="yellow">Module II</font>\n\n
+<font fgcolor="yellow">Module II</font>\n
 Index properties - Sieve analysis – Well graded, poorly graded
 and gap graded soils - Stoke’s law - Hydrometer analysis (no
 derivation required for percentage finer and diameter) -
@@ -3780,7 +3782,7 @@ numerical problems
 I.S. classification of soils.\n
 marks-15%\n\n
 <b>FIRST INTERNAL EXAMINATION</b>\n\n
-<font fgcolor="yellow">Module III</font>\n\n
+<font fgcolor="yellow">Module III</font>\n
 Permeability of soils - Darcy’s law – Factors affecting
 permeability - Practical Applications - Constant head and
 falling head permeability tests - Average permeability of
@@ -3823,7 +3825,7 @@ Square root of time and logarithm of time fitting methods -
 Numerical problems \n
         marks-20%\n\n
 
-<font fgcolor="yellow">Module VI</font>\n\n
+<font fgcolor="yellow">Module VI</font>\n
 Stability of finite slopes - Toe failure, base failure, slip failure
 - Swedish Circle Method- Friction circle method- Factor of
 safety with respect to cohesion and angle of internal friction -
@@ -3897,7 +3899,7 @@ References:\n
 5. P Ramakrishna Rao, Shankar Prakriya, Signals and System, MC Graw Hill Edn 2013.\n
 6. Rodger E. Ziemer, Signals and Systems - Continuous and Discrete, Pearson, 4/e, 2013\n
 </font>\n\n
-<font fgcolor ="yellow">Module I</font>\n\n
+<font fgcolor ="yellow">Module I</font>\n
 Elementary Signals, Classification and representation of
 continuous time and discrete time signals, Signal operations\n
 Continuous time and discrete time systems - Classification,
@@ -3905,13 +3907,13 @@ Properties. \n
 <font fgcolor="aqua">Representation of systems:</font> Differential equation representation
 of continuous time systems. Difference equation representation
 of discrete systems.\n\n
-<font fgcolor="yellow">Module II</font>\n\n
+<font fgcolor="yellow">Module II</font>\n
 Continuous time LTI systems and convolution integral.\n
 Discrete time LTI systems and linear convolution.\n
 Stability and causality of LTI systems.
 Correlation between signals, Orthoganality of signals. \n\n
 <b>FIRST INTERNAL EXAMINATION</b>\n\n
-<font fgcolor="yellow">Module III</font>\n\n
+<font fgcolor="yellow">Module III</font>\n
 Frequency domain representation of continuous time signalscontinuous
 time Fourier series and its properties.
 Convergence, Continuous time fourier transform and its
@@ -3919,7 +3921,7 @@ properties.
 Laplace Transform, ROC, Inverse transform, properties,
 unilateral Laplace transform.
 Relation between Fourier and Laplace transforms. \n\n
-<font fgcolor="yellow">Module IV</font>\n\n
+<font fgcolor="yellow">Module IV</font>\n
 Analysis of LTI systems using Laplace and Fourier transforms.
 Concept of transfer function, Frequency response, Magnitude
 and phase response.\n
@@ -3927,13 +3929,13 @@ Sampling of continuous time signals, Sampling theorem for
 lowpass signals, aliasing.\n\n
 
 <b>SECOND INTERNAL EXAMINATION</b>\n\n
-<font fgcolor="yellow">Module V</font>\n\n
+<font fgcolor="yellow">Module V</font>\n
 Z transform, ROC , Inverse transform, properties, Unilateral Z
 transform.
 Frequency domain representation of discrete time signals,
 Discrete time fourier series and its properties.
 Discrete time fourier transform (DTFT) and its properties \n\n
-<font fgcolor="yellow">Module VI</font>\n\n
+<font fgcolor="yellow">Module VI</font>\n
 Relation between DTFT and Z-Transform, Analysis of discrete
 time LTI systems using Z transforms and DTFT, Transfer
 function, Magnitude and phase response.\n\n
@@ -3957,7 +3959,7 @@ function, Magnitude and phase response.\n\n
     6. Roy D. C. and S. B. Jain, Linear Integrated Circuits, New Age International, 3/e, 2010\n
     7. Sedra A. S. and K. C. Smith, Microelectronic Circuits, 6/e, Oxford University Press, 2013</font>\n\n
 
-    <font fgcolor="yellow">Module I</font>\n\n
+    <font fgcolor="yellow">Module I</font>\n
     <font fgcolor="aqua">Differential amplifiers:</font> Differential amplifier configurations using
     BJT, Large and small signal operations, Input resistance, Voltage
     gain, CMRR, Non-ideal characteristics of differential amplifier.
@@ -3969,7 +3971,7 @@ function, Magnitude and phase response.\n\n
     op-amp configurations, Effect of finite open loop gain, Bandwidth
     and slew rate on circuit performance\n
 
-    <font fgcolor="yellow">Module II</font>\n\n
+    <font fgcolor="yellow">Module II</font>\n
     <font fgcolor="aqua">Op-amp with negative feedback:</font> Introduction, Feedback
     configurations, Voltage series feedback, Voltage shunt feedback,
     Properties of practical op-amp.\n
@@ -3979,7 +3981,7 @@ function, Magnitude and phase response.\n\n
 
     <b>FIRST INTERNAL EXAMINATION</b>\n\n
 
-    <font fgoclor="yellow">Module III</font>\n\n
+    <font fgoclor="yellow">Module III</font>\n
     <font fgcolor="aqua">Op-amp applications:</font> Voltage to current converter, Current to
     voltage converter, Integrator, Differentiator, Precision rectifiers,
     Log and antilog amplifier, Phase shift and Wien bridge oscillators\n\n
@@ -3992,7 +3994,7 @@ function, Magnitude and phase response.\n\n
     Butterworth approximations\n\n
 
     <b>SECOND INTERNAL EXAMINATION</b>\n\n
-    <font fgcolor="yellow">Module V</font>\n\n
+    <font fgcolor="yellow">Module V</font>\n
     <font fgcolor="aqua">Specialized ICs and its applications:Timer IC 555 :</font>
     Astable and monostable operations, applications.
     <font fgcolor="aqua">Analog Multipliers:</font> Introduction, Gilbert multiplier cell.
@@ -4006,7 +4008,7 @@ function, Magnitude and phase response.\n\n
     voltage and high voltage configurations, Current boosting, Current
     limiting, Short circuit and Fold-back protection.\n\n
 
-     <font fgcolor="yellow">Module VI</font>\n\n
+     <font fgcolor="yellow">Module VI</font>\n
      <font fgcolor="aqua">Data Converters:</font> D/A converter, Specifications, Weighted resistor
     type, R-2R Ladder type.\n
     <font fgcolor="aqua">A/D Converters:</font> Specifications, Classification, Flash type,
@@ -4028,7 +4030,8 @@ References:\n
 4. Andrew S Tanenbaum: “Structured Computer Organisation”, Pearson Education\n
 5. Craig Zacker: “PC Hardware : The Complete Reference”, TMH\n\n
 </font>
-<font fgcolor="yellow">Module I </font>\n\n Functional units of a computer
+<font fgcolor="yellow">Module I </font>\n
+    <font fgcolor="aqua">Functional units of a computer</font>\n
 <font fgcolor="aqua">Arithmetic Circuits:</font> Adder-carry propagate adder, Ripple carry
 adder, Basics of carry look ahead and prefix adder, Subtractor,
 Comparator, ALU\n\n
@@ -4037,13 +4040,13 @@ Shifters and rotators, Multiplication, Division
 system \n\n
 <font fgcolor="yellow">Module II</font>\n
 <font fgcolor="aqua">Architecture :</font> Assembly Language, Instructions, Operands,
-Registers, Register set, Memory, Constants \n\n
+Registers, Register set, Memory, Constants \n
 <font fgcolor="aqua">Machine Language:</font> R-Type, I-Type, J-Type Instructions,
 Interpreting machine language code \n\n
 
 <b>FIRST INTERNAL EXAMINATION</b>\n\n
 
-<font fgcolor="yellow">Module III</font>\n\n
+<font fgcolor="yellow">Module III</font>\n
     MIPS Addressing modes – Register only, Immediate, Base, PCrelative,
 Pseudo - direct
 MIPS memory map, Steps for executing a program - Compilation,
@@ -4059,7 +4062,7 @@ Design process and performance analysis of multi cycle processor,
 Multi cycle data path, Multi cycle control for R – type
 arithmetic/logical instructions.\n\n
 <b>SECOND INTERNAL EXAMINATION</b>\n\n
-<font fgcolor="yellow">Module V</font>\n\n
+<font fgcolor="yellow">Module V</font>\n
 I/O system – Accessing I/O devices, Modes of data transfer,
 Programmed I/O, Interrupt driven I/O, Direct Memory Access,
 Standard I/O interfaces – Serial port, Parallel port, PCI, SCSI, and
@@ -4069,7 +4072,7 @@ analysis, Semiconductor memories (RAM, ROM, EPROM),
 Memory Cells – SRAM and DRAM, internal organization of a
 memory chip, Organization of a memory unit.\n\n
 
-<font fgcolor="yellow">Module VI</font>\n\n
+<font fgcolor="yellow">Module VI</font>\n
 Cache Memory – Concept/principle of cache memory, Cache size,
 mapping methods – direct, associated, set associated, Replacement
 algorithms, Write policy- Write through, Write back.\n
@@ -4090,20 +4093,20 @@ References:\n
 3. Taub, Schilling, Saha, Principles of communication system, McGraw Hill, 2013.\n
 4. Tomasi, Advanced Electronic Communications Systems, Pearson, 6/e, 2012.\n\n</font>\n\n
 
-<font fgcolor="yellow">Module I</font>\n\n
+<font fgcolor="yellow">Module I</font>\n
 Introduction, Elements of communication systems, Need for
 modulation
 Noise in communication system, Thermal noise (white noise),
 Shot noise, Partition noise, Flicker noise, Burst noise, Signal to
 noise ratio, Noise factor, Noise temperature, Narrow band noise.\n\n
-<font fgcolor="yellow">Module II</font>\n\n
+<font fgcolor="yellow">Module II</font>\n
 Amplitude modulation: Sinusoidal AM, Modulation index,
 Average power, Effective voltage and current, Nonsinusoidal
 modulation
 Amplitude modulator circuits, Amplitude demodulator circuits,
 AM transmitters, Noise in AM Systems.\n\n
 <b>FIRST INTERNAL EXAMINATION</b>\n\n
-<font fgcolor="yellow">Module III</font>\n\n
+<font fgcolor="yellow">Module III</font>\n
 <font fgcolor="aqua">Single Sideband Modulation:</font> Principles, Balanced modulators,
 Singly and doubly balanced modulators, SSB generation, Filter
 method, Phasing method and Third method, SSB reception,
@@ -4118,13 +4121,13 @@ Tracking, Sensitivity and gain, Image rejection, Double
 conversion, Adjacent channel selectivity, Automatic Gain Control
 (AGC).\n\n
 <b>SECOND INTERNAL EXAMINATION</b>\n\n
-<font fgcolor="yellow">Module V</font>\n\n
+<font fgcolor="yellow">Module V</font>\n
 Phase modulation, Equivalence between PM and FM, Sinusoidal
 phase modulation, Digital phase modulation.\n
 <font fgcolor="aqua">Angle modulator Circuits:</font> Varactor diode modulators, Transistor
 modulators.\n
 <font fgcolor="aqua">FM Transmitters:</font> Direct and Indirect Methods.\n\n
-<font fgcolor="yellow">Module VI</font>\n\n
+<font fgcolor="yellow">Module VI</font>\n
 Angle modulation detectors, Slope detector, Balanced slope
 detector, Foster-Seeley discriminator, PLL demodulator,
 Automatic Frequency Control (AFC), Amplitude limiters, Noise in

@@ -1,20 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.z.pranavj7.myktu"
-    android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionCode="2"
+    android:versionName="0.0.7" >
 
     <uses-sdk
-        android:minSdkVersion="16"
+        android:minSdkVersion="19"
         android:targetSdkVersion="23" />
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-
-    <android:uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
-    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
 
@@ -30,6 +25,23 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
+        <service
+            android:name="com.z.pranavj7.myktu.FireMessage"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.z.pranavj7.myktu.FireService"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
         <activity
             android:name="com.z.pranavj7.myktu.SplashScreen"
             android:theme="@style/SplashTheme" >
@@ -97,29 +109,20 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.z.pranavj7.myktu.DetailQuestionsactivity"
-            android:label="Questions by year"
+            android:name="com.z.pranavj7.myktu.DetailQuestionsactivitys1s2"
+            android:label="Question papers"
             android:parentActivityName="com.z.pranavj7.myktu.DetailActivitys1s2" >
-            <intent-filter>
-                <action android:name="com.example.package_path.SecondActivity" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.z.pranavj7.myktu.DetailQuestionActivitys3s4"
+            android:label="Question papers"
+            android:parentActivityName="com.z.pranavj7.myktu.DetailActivity" >
         </activity>
         <activity
             android:name="com.z.pranavj7.myktu.DetailNotesactivity"
             android:label="Notes" >
             <intent-filter>
                 <action android:name="com.example.package_path.SecondActivity" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name="com.z.pranavj7.myktu.qst_activity"
-            android:label="Question papers" >
-            <intent-filter>
-                <action android:name="com.example.package_path.qst_Activity" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
@@ -194,6 +197,17 @@
             android:exported="true" >
             <intent-filter android:priority="-500" >
                 <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <!--
+ FirebaseMessagingService performs security checks at runtime,
+             no need for explicit permissions despite exported="true"
+        -->
+        <service
+            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+            android:exported="true" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
     </application>

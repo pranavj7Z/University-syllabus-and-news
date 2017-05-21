@@ -368,17 +368,17 @@
                     "startLine": 21,
                     "startColumn": 4,
                     "startOffset": 2121,
-                    "endColumn": 112,
-                    "endOffset": 2229
+                    "endColumn": 74,
+                    "endOffset": 2191
                 },
                 "from": {
-                    "file": "C:\\Users\\pinkzz\\Desktop\\ktu helper\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.0\\res\\values-hu\\values.xml",
+                    "file": "C:\\Users\\pinkzz\\Desktop\\ktu helper\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-ads\\9.8.0\\res\\values-hu\\values.xml",
                     "position": {
                         "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 340,
-                        "endColumn": 112,
-                        "endOffset": 448
+                        "startColumn": 0,
+                        "startOffset": 237,
+                        "endColumn": 70,
+                        "endOffset": 307
                     }
                 }
             },
@@ -386,18 +386,18 @@
                 "to": {
                     "startLine": 22,
                     "startColumn": 4,
-                    "startOffset": 2234,
-                    "endColumn": 215,
-                    "endOffset": 2445
+                    "startOffset": 2196,
+                    "endColumn": 112,
+                    "endOffset": 2304
                 },
                 "from": {
-                    "file": "C:\\Users\\pinkzz\\Desktop\\ktu helper\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.0\\res\\values-hu\\values.xml",
+                    "file": "C:\\Users\\pinkzz\\Desktop\\ktu helper\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.8.0\\res\\values-hu\\values.xml",
                     "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 453,
-                        "endColumn": 215,
-                        "endOffset": 664
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 283,
+                        "endColumn": 108,
+                        "endOffset": 391
                     }
                 }
             },
@@ -405,18 +405,18 @@
                 "to": {
                     "startLine": 23,
                     "startColumn": 4,
-                    "startOffset": 2450,
-                    "endColumn": 139,
-                    "endOffset": 2585
+                    "startOffset": 2309,
+                    "endColumn": 215,
+                    "endOffset": 2520
                 },
                 "from": {
-                    "file": "C:\\Users\\pinkzz\\Desktop\\ktu helper\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.0\\res\\values-hu\\values.xml",
+                    "file": "C:\\Users\\pinkzz\\Desktop\\ktu helper\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.8.0\\res\\values-hu\\values.xml",
                     "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 669,
-                        "endColumn": 139,
-                        "endOffset": 804
+                        "startLine": 5,
+                        "startColumn": 0,
+                        "startOffset": 392,
+                        "endColumn": 215,
+                        "endOffset": 607
                     }
                 }
             },
@@ -424,18 +424,18 @@
                 "to": {
                     "startLine": 24,
                     "startColumn": 4,
-                    "startOffset": 2590,
-                    "endColumn": 110,
-                    "endOffset": 2696
+                    "startOffset": 2525,
+                    "endColumn": 139,
+                    "endOffset": 2660
                 },
                 "from": {
-                    "file": "C:\\Users\\pinkzz\\Desktop\\ktu helper\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.0\\res\\values-hu\\values.xml",
+                    "file": "C:\\Users\\pinkzz\\Desktop\\ktu helper\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.8.0\\res\\values-hu\\values.xml",
                     "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 809,
-                        "endColumn": 110,
-                        "endOffset": 915
+                        "startLine": 6,
+                        "startColumn": 0,
+                        "startOffset": 608,
+                        "endColumn": 135,
+                        "endOffset": 743
                     }
                 }
             },
@@ -443,18 +443,18 @@
                 "to": {
                     "startLine": 25,
                     "startColumn": 4,
-                    "startOffset": 2701,
-                    "endColumn": 232,
-                    "endOffset": 2929
+                    "startOffset": 2665,
+                    "endColumn": 110,
+                    "endOffset": 2771
                 },
                 "from": {
-                    "file": "C:\\Users\\pinkzz\\Desktop\\ktu helper\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.0\\res\\values-hu\\values.xml",
+                    "file": "C:\\Users\\pinkzz\\Desktop\\ktu helper\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.8.0\\res\\values-hu\\values.xml",
                     "position": {
-                        "startLine": 8,
-                        "startColumn": 4,
-                        "startOffset": 920,
-                        "endColumn": 232,
-                        "endOffset": 1148
+                        "startLine": 7,
+                        "startColumn": 0,
+                        "startOffset": 744,
+                        "endColumn": 106,
+                        "endOffset": 850
                     }
                 }
             },
@@ -462,18 +462,18 @@
                 "to": {
                     "startLine": 26,
                     "startColumn": 4,
-                    "startOffset": 2934,
-                    "endColumn": 234,
-                    "endOffset": 3164
+                    "startOffset": 2776,
+                    "endColumn": 226,
+                    "endOffset": 2998
                 },
                 "from": {
-                    "file": "C:\\Users\\pinkzz\\Desktop\\ktu helper\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.0\\res\\values-hu\\values.xml",
+                    "file": "C:\\Users\\pinkzz\\Desktop\\ktu helper\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.8.0\\res\\values-hu\\values.xml",
                     "position": {
-                        "startLine": 9,
-                        "startColumn": 4,
-                        "startOffset": 1153,
-                        "endColumn": 234,
-                        "endOffset": 1383
+                        "startLine": 8,
+                        "startColumn": 0,
+                        "startOffset": 851,
+                        "endColumn": 226,
+                        "endOffset": 1077
                     }
                 }
             },
@@ -481,18 +481,18 @@
                 "to": {
                     "startLine": 27,
                     "startColumn": 4,
-                    "startOffset": 3169,
+                    "startOffset": 3003,
                     "endColumn": 139,
-                    "endOffset": 3304
+                    "endOffset": 3138
                 },
                 "from": {
-                    "file": "C:\\Users\\pinkzz\\Desktop\\ktu helper\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.0\\res\\values-hu\\values.xml",
+                    "file": "C:\\Users\\pinkzz\\Desktop\\ktu helper\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.8.0\\res\\values-hu\\values.xml",
                     "position": {
-                        "startLine": 10,
-                        "startColumn": 4,
-                        "startOffset": 1388,
-                        "endColumn": 139,
-                        "endOffset": 1523
+                        "startLine": 9,
+                        "startColumn": 0,
+                        "startOffset": 1078,
+                        "endColumn": 135,
+                        "endOffset": 1213
                     }
                 }
             },
@@ -500,18 +500,18 @@
                 "to": {
                     "startLine": 28,
                     "startColumn": 4,
-                    "startOffset": 3309,
+                    "startOffset": 3143,
                     "endColumn": 138,
-                    "endOffset": 3443
+                    "endOffset": 3277
                 },
                 "from": {
-                    "file": "C:\\Users\\pinkzz\\Desktop\\ktu helper\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.0\\res\\values-hu\\values.xml",
+                    "file": "C:\\Users\\pinkzz\\Desktop\\ktu helper\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.8.0\\res\\values-hu\\values.xml",
                     "position": {
-                        "startLine": 11,
-                        "startColumn": 4,
-                        "startOffset": 1528,
-                        "endColumn": 138,
-                        "endOffset": 1662
+                        "startLine": 10,
+                        "startColumn": 0,
+                        "startOffset": 1214,
+                        "endColumn": 134,
+                        "endOffset": 1348
                     }
                 }
             },
@@ -519,18 +519,18 @@
                 "to": {
                     "startLine": 29,
                     "startColumn": 4,
-                    "startOffset": 3448,
-                    "endColumn": 294,
-                    "endOffset": 3738
+                    "startOffset": 3282,
+                    "endColumn": 235,
+                    "endOffset": 3513
                 },
                 "from": {
-                    "file": "C:\\Users\\pinkzz\\Desktop\\ktu helper\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\9.6.0\\res\\values-hu\\values.xml",
+                    "file": "C:\\Users\\pinkzz\\Desktop\\ktu helper\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\9.8.0\\res\\values-hu\\values.xml",
                     "position": {
                         "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 343,
-                        "endColumn": 294,
-                        "endOffset": 633
+                        "startColumn": 0,
+                        "startOffset": 285,
+                        "endColumn": 235,
+                        "endOffset": 520
                     }
                 }
             },
@@ -538,18 +538,18 @@
                 "to": {
                     "startLine": 30,
                     "startColumn": 4,
-                    "startOffset": 3743,
-                    "endColumn": 294,
-                    "endOffset": 4033
+                    "startOffset": 3518,
+                    "endColumn": 228,
+                    "endOffset": 3742
                 },
                 "from": {
-                    "file": "C:\\Users\\pinkzz\\Desktop\\ktu helper\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.0\\res\\values-hu\\values.xml",
+                    "file": "C:\\Users\\pinkzz\\Desktop\\ktu helper\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.8.0\\res\\values-hu\\values.xml",
                     "position": {
-                        "startLine": 12,
-                        "startColumn": 4,
-                        "startOffset": 1667,
-                        "endColumn": 294,
-                        "endOffset": 1957
+                        "startLine": 11,
+                        "startColumn": 0,
+                        "startOffset": 1349,
+                        "endColumn": 228,
+                        "endOffset": 1577
                     }
                 }
             },
@@ -557,18 +557,18 @@
                 "to": {
                     "startLine": 31,
                     "startColumn": 4,
-                    "startOffset": 4038,
-                    "endColumn": 129,
-                    "endOffset": 4163
+                    "startOffset": 3747,
+                    "endColumn": 109,
+                    "endOffset": 3852
                 },
                 "from": {
-                    "file": "C:\\Users\\pinkzz\\Desktop\\ktu helper\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.0\\res\\values-hu\\values.xml",
+                    "file": "C:\\Users\\pinkzz\\Desktop\\ktu helper\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.8.0\\res\\values-hu\\values.xml",
                     "position": {
-                        "startLine": 13,
-                        "startColumn": 4,
-                        "startOffset": 1962,
-                        "endColumn": 129,
-                        "endOffset": 2087
+                        "startLine": 12,
+                        "startColumn": 0,
+                        "startOffset": 1578,
+                        "endColumn": 105,
+                        "endOffset": 1683
                     }
                 }
             },
@@ -576,18 +576,18 @@
                 "to": {
                     "startLine": 32,
                     "startColumn": 4,
-                    "startOffset": 4168,
-                    "endColumn": 109,
-                    "endOffset": 4273
+                    "startOffset": 3857,
+                    "endColumn": 215,
+                    "endOffset": 4068
                 },
                 "from": {
-                    "file": "C:\\Users\\pinkzz\\Desktop\\ktu helper\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.0\\res\\values-hu\\values.xml",
+                    "file": "C:\\Users\\pinkzz\\Desktop\\ktu helper\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.8.0\\res\\values-hu\\values.xml",
                     "position": {
-                        "startLine": 14,
-                        "startColumn": 4,
-                        "startOffset": 2092,
-                        "endColumn": 109,
-                        "endOffset": 2197
+                        "startLine": 13,
+                        "startColumn": 0,
+                        "startOffset": 1684,
+                        "endColumn": 215,
+                        "endOffset": 1899
                     }
                 }
             },
@@ -595,18 +595,18 @@
                 "to": {
                     "startLine": 33,
                     "startColumn": 4,
-                    "startOffset": 4278,
-                    "endColumn": 215,
-                    "endOffset": 4489
+                    "startOffset": 4073,
+                    "endColumn": 138,
+                    "endOffset": 4207
                 },
                 "from": {
-                    "file": "C:\\Users\\pinkzz\\Desktop\\ktu helper\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.0\\res\\values-hu\\values.xml",
+                    "file": "C:\\Users\\pinkzz\\Desktop\\ktu helper\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.8.0\\res\\values-hu\\values.xml",
                     "position": {
-                        "startLine": 15,
-                        "startColumn": 4,
-                        "startOffset": 2202,
-                        "endColumn": 215,
-                        "endOffset": 2413
+                        "startLine": 14,
+                        "startColumn": 0,
+                        "startOffset": 1900,
+                        "endColumn": 134,
+                        "endOffset": 2034
                     }
                 }
             },
@@ -614,18 +614,18 @@
                 "to": {
                     "startLine": 34,
                     "startColumn": 4,
-                    "startOffset": 4494,
-                    "endColumn": 138,
-                    "endOffset": 4628
+                    "startOffset": 4212,
+                    "endColumn": 230,
+                    "endOffset": 4438
                 },
                 "from": {
-                    "file": "C:\\Users\\pinkzz\\Desktop\\ktu helper\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.0\\res\\values-hu\\values.xml",
+                    "file": "C:\\Users\\pinkzz\\Desktop\\ktu helper\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.8.0\\res\\values-hu\\values.xml",
                     "position": {
-                        "startLine": 16,
-                        "startColumn": 4,
-                        "startOffset": 2418,
-                        "endColumn": 138,
-                        "endOffset": 2552
+                        "startLine": 15,
+                        "startColumn": 0,
+                        "startOffset": 2035,
+                        "endColumn": 230,
+                        "endOffset": 2265
                     }
                 }
             },
@@ -633,18 +633,18 @@
                 "to": {
                     "startLine": 35,
                     "startColumn": 4,
-                    "startOffset": 4633,
-                    "endColumn": 230,
-                    "endOffset": 4859
+                    "startOffset": 4443,
+                    "endColumn": 201,
+                    "endOffset": 4640
                 },
                 "from": {
-                    "file": "C:\\Users\\pinkzz\\Desktop\\ktu helper\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.0\\res\\values-hu\\values.xml",
+                    "file": "C:\\Users\\pinkzz\\Desktop\\ktu helper\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.8.0\\res\\values-hu\\values.xml",
                     "position": {
-                        "startLine": 17,
-                        "startColumn": 4,
-                        "startOffset": 2557,
-                        "endColumn": 230,
-                        "endOffset": 2783
+                        "startLine": 16,
+                        "startColumn": 0,
+                        "startOffset": 2266,
+                        "endColumn": 197,
+                        "endOffset": 2463
                     }
                 }
             },
@@ -652,18 +652,18 @@
                 "to": {
                     "startLine": 36,
                     "startColumn": 4,
-                    "startOffset": 4864,
-                    "endColumn": 140,
-                    "endOffset": 5000
+                    "startOffset": 4645,
+                    "endColumn": 100,
+                    "endOffset": 4741
                 },
                 "from": {
-                    "file": "C:\\Users\\pinkzz\\Desktop\\ktu helper\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.0\\res\\values-hu\\values.xml",
+                    "file": "C:\\Users\\pinkzz\\Desktop\\ktu helper\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.8.0\\res\\values-hu\\values.xml",
                     "position": {
-                        "startLine": 18,
-                        "startColumn": 4,
-                        "startOffset": 2788,
-                        "endColumn": 140,
-                        "endOffset": 2924
+                        "startLine": 17,
+                        "startColumn": 0,
+                        "startOffset": 2464,
+                        "endColumn": 96,
+                        "endOffset": 2560
                     }
                 }
             },
@@ -671,18 +671,18 @@
                 "to": {
                     "startLine": 37,
                     "startColumn": 4,
-                    "startOffset": 5005,
-                    "endColumn": 201,
-                    "endOffset": 5202
+                    "startOffset": 4746,
+                    "endColumn": 97,
+                    "endOffset": 4839
                 },
                 "from": {
-                    "file": "C:\\Users\\pinkzz\\Desktop\\ktu helper\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.0\\res\\values-hu\\values.xml",
+                    "file": "C:\\Users\\pinkzz\\Desktop\\ktu helper\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.8.0\\res\\values-hu\\values.xml",
                     "position": {
-                        "startLine": 19,
-                        "startColumn": 4,
-                        "startOffset": 2929,
-                        "endColumn": 201,
-                        "endOffset": 3126
+                        "startLine": 18,
+                        "startColumn": 0,
+                        "startOffset": 2561,
+                        "endColumn": 93,
+                        "endOffset": 2654
                     }
                 }
             },
@@ -690,18 +690,18 @@
                 "to": {
                     "startLine": 38,
                     "startColumn": 4,
-                    "startOffset": 5207,
-                    "endColumn": 100,
-                    "endOffset": 5303
+                    "startOffset": 4844,
+                    "endColumn": 116,
+                    "endOffset": 4956
                 },
                 "from": {
-                    "file": "C:\\Users\\pinkzz\\Desktop\\ktu helper\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.0\\res\\values-hu\\values.xml",
+                    "file": "C:\\Users\\pinkzz\\Desktop\\ktu helper\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.8.0\\res\\values-hu\\values.xml",
                     "position": {
-                        "startLine": 20,
-                        "startColumn": 4,
-                        "startOffset": 3131,
-                        "endColumn": 100,
-                        "endOffset": 3227
+                        "startLine": 19,
+                        "startColumn": 0,
+                        "startOffset": 2655,
+                        "endColumn": 112,
+                        "endOffset": 2767
                     }
                 }
             },
@@ -709,18 +709,18 @@
                 "to": {
                     "startLine": 39,
                     "startColumn": 4,
-                    "startOffset": 5308,
-                    "endColumn": 97,
-                    "endOffset": 5401
+                    "startOffset": 4961,
+                    "endColumn": 140,
+                    "endOffset": 5097
                 },
                 "from": {
-                    "file": "C:\\Users\\pinkzz\\Desktop\\ktu helper\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.0\\res\\values-hu\\values.xml",
+                    "file": "C:\\Users\\pinkzz\\Desktop\\ktu helper\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-ads\\9.8.0\\res\\values-hu\\values.xml",
                     "position": {
-                        "startLine": 21,
-                        "startColumn": 4,
-                        "startOffset": 3232,
-                        "endColumn": 97,
-                        "endOffset": 3325
+                        "startLine": 5,
+                        "startColumn": 0,
+                        "startOffset": 308,
+                        "endColumn": 136,
+                        "endOffset": 444
                     }
                 }
             },
@@ -728,18 +728,18 @@
                 "to": {
                     "startLine": 40,
                     "startColumn": 4,
-                    "startOffset": 5406,
-                    "endColumn": 116,
-                    "endOffset": 5518
+                    "startOffset": 5102,
+                    "endColumn": 105,
+                    "endOffset": 5203
                 },
                 "from": {
-                    "file": "C:\\Users\\pinkzz\\Desktop\\ktu helper\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.0\\res\\values-hu\\values.xml",
+                    "file": "C:\\Users\\pinkzz\\Desktop\\ktu helper\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-ads\\9.8.0\\res\\values-hu\\values.xml",
                     "position": {
-                        "startLine": 22,
-                        "startColumn": 4,
-                        "startOffset": 3330,
-                        "endColumn": 116,
-                        "endOffset": 3442
+                        "startLine": 6,
+                        "startColumn": 0,
+                        "startOffset": 445,
+                        "endColumn": 101,
+                        "endOffset": 546
                     }
                 }
             },
@@ -747,9 +747,104 @@
                 "to": {
                     "startLine": 41,
                     "startColumn": 4,
-                    "startOffset": 5523,
+                    "startOffset": 5208,
+                    "endColumn": 104,
+                    "endOffset": 5308
+                },
+                "from": {
+                    "file": "C:\\Users\\pinkzz\\Desktop\\ktu helper\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-ads\\9.8.0\\res\\values-hu\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 0,
+                        "startOffset": 547,
+                        "endColumn": 100,
+                        "endOffset": 647
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 5313,
+                    "endColumn": 103,
+                    "endOffset": 5412
+                },
+                "from": {
+                    "file": "C:\\Users\\pinkzz\\Desktop\\ktu helper\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-ads\\9.8.0\\res\\values-hu\\values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 0,
+                        "startOffset": 648,
+                        "endColumn": 99,
+                        "endOffset": 747
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 5417,
+                    "endColumn": 106,
+                    "endOffset": 5519
+                },
+                "from": {
+                    "file": "C:\\Users\\pinkzz\\Desktop\\ktu helper\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-ads\\9.8.0\\res\\values-hu\\values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 0,
+                        "startOffset": 748,
+                        "endColumn": 102,
+                        "endOffset": 850
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 5524,
+                    "endColumn": 101,
+                    "endOffset": 5621
+                },
+                "from": {
+                    "file": "C:\\Users\\pinkzz\\Desktop\\ktu helper\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-ads\\9.8.0\\res\\values-hu\\values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 0,
+                        "startOffset": 851,
+                        "endColumn": 97,
+                        "endOffset": 948
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 5626,
+                    "endColumn": 76,
+                    "endOffset": 5698
+                },
+                "from": {
+                    "file": "C:\\Users\\pinkzz\\Desktop\\ktu helper\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-ads\\9.8.0\\res\\values-hu\\values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 0,
+                        "startOffset": 949,
+                        "endColumn": 72,
+                        "endOffset": 1021
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 46,
+                    "startColumn": 4,
+                    "startOffset": 5703,
                     "endColumn": 82,
-                    "endOffset": 5601
+                    "endOffset": 5781
                 },
                 "from": {
                     "file": "C:\\Users\\pinkzz\\Desktop\\ktu helper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-hu\\values-hu.xml",
@@ -764,11 +859,11 @@
             },
             {
                 "to": {
-                    "startLine": 42,
+                    "startLine": 47,
                     "startColumn": 4,
-                    "startOffset": 5606,
+                    "startOffset": 5786,
                     "endColumn": 100,
-                    "endOffset": 5702
+                    "endOffset": 5882
                 },
                 "from": {
                     "file": "C:\\Users\\pinkzz\\Desktop\\ktu helper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-hu\\values-hu.xml",
@@ -778,6 +873,44 @@
                         "startOffset": 2154,
                         "endColumn": 100,
                         "endOffset": 2250
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 48,
+                    "startColumn": 4,
+                    "startOffset": 5887,
+                    "endColumn": 143,
+                    "endOffset": 6026
+                },
+                "from": {
+                    "file": "C:\\Users\\pinkzz\\Desktop\\ktu helper\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-ads\\9.8.0\\res\\values-hu\\values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 0,
+                        "startOffset": 1022,
+                        "endColumn": 139,
+                        "endOffset": 1161
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 49,
+                    "startColumn": 4,
+                    "startOffset": 6031,
+                    "endColumn": 89,
+                    "endOffset": 6116
+                },
+                "from": {
+                    "file": "C:\\Users\\pinkzz\\Desktop\\ktu helper\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-ads\\9.8.0\\res\\values-hu\\values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 0,
+                        "startOffset": 1162,
+                        "endColumn": 85,
+                        "endOffset": 1247
                     }
                 }
             }

@@ -19,6 +19,7 @@ public class AboutFragment extends Fragment {
         ButterKnife.bind(this, rootView);
         ImageButton myButton1 = (ImageButton) rootView.findViewById(R.id.gp);
         ImageButton myButton2 = (ImageButton) rootView.findViewById(R.id.lk);
+        ImageButton myButton3 = (ImageButton) rootView.findViewById(R.id.gpk);
         myButton1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -30,6 +31,14 @@ public class AboutFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.linkedin.com/in/pranavjayaraj"));
+                startActivity(intent);
+            }
+
+        });
+        myButton3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://play.google.com/store/apps/details?id=com.pranavj7.android.hellonote"));
                 startActivity(intent);
             }
 

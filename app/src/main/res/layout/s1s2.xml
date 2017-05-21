@@ -9,7 +9,7 @@
         android:id="@+id/appbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:elevation="8dp">
+       >
 
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar"
@@ -25,16 +25,18 @@
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:layout_marginBottom="50dp"
         tools:context=".MainActivity">
 
         <LinearLayout
             xmlns:android="http://schemas.android.com/apk/res/android"
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:orientation="vertical"
             android:weightSum="3"
+            android:layout_marginBottom="25dp"
             android:background="@color/grey"
             android:padding="10dp">
 <android.support.v7.widget.CardView
@@ -109,7 +111,6 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:weightSum="3"
-
                 android:background="#FFEA00"
                 android:elevation="50dp">
 
@@ -295,7 +296,6 @@
                     android:layout_width="140dp"
                     android:layout_height="140dp"
                     android:layout_weight="1"
-                    android:onClick="ee"
                     android:adjustViewBounds="true"
                     android:layout_gravity="center"
                     android:background="#00000000"
@@ -440,12 +440,13 @@
             android:layout_width="match_parent"
             app:cardCornerRadius="15dp"
             android:layout_marginTop="15dp"
+            android:layout_marginBottom="20dp"
             android:layout_height="wrap_content">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:orientation="vertical"
-            android:layout_height="wrap_content">
+                        android:layout_height="wrap_content">
 
             <LinearLayout
                 xmlns:android="http://schemas.android.com/apk/res/android"
@@ -503,7 +504,6 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:weightSum="3"
-
                 android:elevation="30dp"
                 android:background="#f76b26">
 

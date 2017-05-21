@@ -7,15 +7,28 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.TextView;
+
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+
+import butterknife.BindView;
+
 /**
  * Created by pranavj7 on 7/13/2016.
  */
 public class
         DetailActivity extends AppCompatActivity {
+    @BindView(R.id.adView7)
+    AdView mAdView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.second_activity);
+        AdView adView = (AdView)findViewById(R.id.adView7);
+        AdRequest adRequest = new AdRequest.Builder()
+                .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
+                .build();
+        adView.loadAd(adRequest);
         Toolbar mToolbar = (Toolbar)findViewById(R.id.toolbar);
         setSupportActionBar(mToolbar);
         mToolbar.setTitleTextColor(getResources().getColor(R.color.white));
@@ -42,7 +55,6 @@ public class
 
           Intent slideactivity = new Intent(DetailActivity.this,DetailQuestionActivitys3s4.class);
                 startActivity(slideactivity);
-                overridePendingTransition(android.R.anim.slide_in_left, android.R.anim.slide_out_right);
         }
      return true;
     }
@@ -51,7 +63,6 @@ public class
 
             Intent slideactivity = new Intent(DetailActivity.this,DetailNotesactivity.class);
             startActivity(slideactivity);
-            overridePendingTransition(android.R.anim.slide_in_left, android.R.anim.slide_out_right);
         }
         return true;
     }

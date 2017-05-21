@@ -10,7 +10,7 @@
         android:id="@+id/appbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:elevation="8dp">
+        >
 
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar"
@@ -20,14 +20,14 @@
         </android.support.v7.widget.Toolbar>
 
     </android.support.design.widget.AppBarLayout>
-<android.support.v4.widget.NestedScrollView
+<ScrollView
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
+    android:layout_marginTop="?attr/actionBarSize"
+    android:layout_height="wrap_content">
     <RelativeLayout
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    tools:context=".MainActivity"
+        android:layout_marginBottom="30dp"
+        android:layout_height="wrap_content"
     android:background="@drawable/ktu77777">
 
     <LinearLayout
@@ -297,5 +297,5 @@
         android:background="#e83333"
         android:textColor="#ffffff" />
 </RelativeLayout>
-</android.support.v4.widget.NestedScrollView>
+</ScrollView>
     </android.support.design.widget.CoordinatorLayout>

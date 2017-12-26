@@ -1,1 +1,2 @@
-APP FOR APJ ABDUL KALAM TECHNOLOGICAL UNIVERSITY , KERALA
+This is an android app build for my university.
+Note:This project has been shut down.
